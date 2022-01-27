@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Building Blocks HR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/bbhr_icon" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text=" HR in your hands. HR on demand."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#853D4B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/benefitsButton"
+        android:layout_width="73dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/policyButton"
+        app:layout_constraintStart_toStartOf="@+id/policyButton"
+        app:layout_constraintTop_toBottomOf="@+id/policyButton"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+    <ImageButton
+        android:id="@+id/policyButton"
+        android:layout_width="72dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="?attr/actionModePasteDrawable" />
+
+    <ImageButton
+        android:id="@+id/vacationButton"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
+        app:layout_constraintStart_toStartOf="@+id/benefitsButton"
+        app:layout_constraintTop_toBottomOf="@+id/benefitsButton"
+        app:srcCompat="@android:drawable/ic_menu_month" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Welcome back username!"
+        android:textColor="#03A9F4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slogan"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/benefitText"
+        android:layout_width="83dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Benefits"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/benefitsButton"
+        app:layout_constraintStart_toEndOf="@+id/benefitsButton" />
+
+    <TextView
+        android:id="@+id/policyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Policies"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/policyButton"
+        app:layout_constraintStart_toEndOf="@+id/policyButton" />
+
+    <TextView
+        android:id="@+id/vacationText"
+        android:layout_width="94dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Vacation"
+        android:textColor="#ED0606"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/vacationButton"
+        app:layout_constraintStart_toEndOf="@+id/vacationButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

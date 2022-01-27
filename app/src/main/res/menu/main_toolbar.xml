@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opolicies"
+        android:icon="@drawable/policy"
+        android:title="Policies"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/benefits"
+        android:icon="@drawable/benefits"
+        android:title="Benefits"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/vacation"
+        android:icon="@drawable/vacation"
+        android:title="Vacation"
+        app:showAsAction="always" />
+
+</menu>
