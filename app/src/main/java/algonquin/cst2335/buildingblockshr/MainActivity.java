@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity {
 //        navigationView.setNavigationItemSelectedListener((item)->{
 //            switch(item.getItemId())
 //            {
-//                case R.id.pexels:
+//                case R.id.policy:
 //
-//                case R.id.covid:
+//                case R.id.benefits:
 //
-//                case R.id.owlbot:
-//
-//                case R.id.carbon:
+//                case R.id.vacation://
 //
 //                    onOptionsItemSelected(item);
 //                    drawer.closeDrawer(GravityCompat.START);
