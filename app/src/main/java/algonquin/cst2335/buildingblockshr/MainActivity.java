@@ -46,27 +46,34 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
 
 
-//        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, myToolbar, R.string.open, R.string.close); // create string open and close
-//        drawer.addDrawerListener(toggle); // listens to when it opens and closes
-//        toggle.syncState();
-//
-//        NavigationView navigationView = findViewById(R.id.popout_menu);
-//        navigationView.setNavigationItemSelectedListener((item)->{
-//            switch(item.getItemId())
-//            {
-//                case R.id.policy:
-//
-//                case R.id.benefits:
-//
-//                case R.id.vacation://
-//
-//                    onOptionsItemSelected(item);
-//                    drawer.closeDrawer(GravityCompat.START);
-//                    break;
-//            }
-//            return false;
-//        });
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, myToolbar, R.string.open, R.string.close); // create string open and close
+        drawer.addDrawerListener(toggle); // listens to when it opens and closes
+        toggle.syncState();
+
+        NavigationView navigationView = findViewById(R.id.popout_menu); // popout menu options
+        navigationView.setNavigationItemSelectedListener((item)->{
+            switch(item.getItemId()) {
+                case R.id.popout_policies:
+                    Intent nextPage = new Intent(MainActivity.this, PolicyActivity.class);
+                    startActivity(nextPage);
+                    break;
+
+                case R.id.popout_benefits:
+                    Intent nextPage1 = new Intent(MainActivity.this, BenefitsActivity.class);
+                    startActivity(nextPage1);
+                    break;
+
+                case R.id.popout_vacation:
+                    Intent nextPage2 = new Intent(MainActivity.this, VacationActivity.class);
+                    startActivity(nextPage2);
+                    break;
+            }
+
+            onOptionsItemSelected(item);
+            drawer.closeDrawer(GravityCompat.START);
+            return false;
+        });
 
         policyButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity.this, PolicyActivity.class);

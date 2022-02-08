@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/policies"
-        android:icon="@drawable/policy"
+        android:icon="@drawable/policies"
         android:title="Policies"
         app:showAsAction="always" />
 

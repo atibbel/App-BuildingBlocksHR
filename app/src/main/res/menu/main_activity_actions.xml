@@ -6,7 +6,7 @@
         android:id="@+id/help"
         android:icon="@android:drawable/ic_dialog_info"
         android:title="Help"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/signUp"
         android:icon="@drawable/puzzelgreen"

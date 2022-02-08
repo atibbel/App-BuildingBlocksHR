@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -13,6 +15,18 @@
         android:id="@+id/toolbar"
         android:background="?attr/colorPrimary"
         tools:ignore="MissingConstraints" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
@@ -69,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="@+id/policyButton"
         app:layout_constraintStart_toStartOf="@+id/policyButton"
         app:layout_constraintTop_toBottomOf="@+id/policyButton"
-        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        app:srcCompat="@drawable/benefits1" />
 
     <ImageButton
         android:id="@+id/policyButton"
@@ -80,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="?attr/actionModePasteDrawable" />
+        app:srcCompat="@drawable/policy1" />
 
     <ImageButton
         android:id="@+id/vacationButton"
@@ -90,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
         app:layout_constraintStart_toStartOf="@+id/benefitsButton"
         app:layout_constraintTop_toBottomOf="@+id/benefitsButton"
-        app:srcCompat="@android:drawable/ic_menu_month" />
+        app:srcCompat="@drawable/vacation1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -149,5 +163,18 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/vacationButton"
         app:layout_constraintStart_toEndOf="@+id/vacationButton" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Whats on the popup menu(hamburger button) -->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/popout_menu"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/main_popout_header"
+            app:menu="@menu/popout_menu"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
