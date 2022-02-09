@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -36,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton policyButton = findViewById(R.id.policyButton);
-        ImageButton benefitsButton = findViewById(R.id.benefitsButton);
-        ImageButton vacationButton = findViewById(R.id.vacationButton);
+        Button policyButton = findViewById(R.id.policyButton);
+        Button benefitsButton = findViewById(R.id.benefitsButton);
+        Button vacationButton = findViewById(R.id.vacationButton);
 
         String gettingThatToast = "Getting that for you...";
 
@@ -103,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
                         }).create().show();
                 break;
-            case R.id.signUp: // edit to take to sign up page
+            case R.id.logOut: // edit to take to sign up page
                 AlertDialog.Builder builder2 = new AlertDialog.Builder(MainActivity.this);
                 builder2.setMessage("This will take you to the sign up page....when we create it.")
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {

@@ -75,37 +75,6 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <ImageButton
-        android:id="@+id/benefitsButton"
-        android:layout_width="73dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/policyButton"
-        app:layout_constraintStart_toStartOf="@+id/policyButton"
-        app:layout_constraintTop_toBottomOf="@+id/policyButton"
-        app:srcCompat="@drawable/benefits1" />
-
-    <ImageButton
-        android:id="@+id/policyButton"
-        android:layout_width="72dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="300dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/policy1" />
-
-    <ImageButton
-        android:id="@+id/vacationButton"
-        android:layout_width="71dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
-        app:layout_constraintStart_toStartOf="@+id/benefitsButton"
-        app:layout_constraintTop_toBottomOf="@+id/benefitsButton"
-        app:srcCompat="@drawable/vacation1" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="258dp"
@@ -122,47 +91,46 @@
         app:layout_constraintTop_toBottomOf="@+id/slogan"
         app:layout_constraintVertical_bias="0.052" />
 
-    <TextView
-        android:id="@+id/benefitText"
-        android:layout_width="83dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="10dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="Benefits"
-        android:textColor="#673AB7"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/benefitsButton"
-        app:layout_constraintStart_toEndOf="@+id/benefitsButton" />
-
-    <TextView
-        android:id="@+id/policyText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="10dp"
+    <Button
+        android:id="@+id/policyButton"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/poppins_light"
         android:text="Policies"
-        android:textColor="#4CAF50"
-        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/policyButton"
-        app:layout_constraintStart_toEndOf="@+id/policyButton" />
+        android:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/vacationText"
-        android:layout_width="94dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="8dp"
+    <Button
+        android:id="@+id/benefitsButton"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Vacation"
-        android:textColor="#ED0606"
-        android:textSize="16sp"
+        android:text="@string/benefits"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/vacationButton"
-        app:layout_constraintStart_toEndOf="@+id/vacationButton" />
+        android:backgroundTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="@+id/policyButton"
+        app:layout_constraintStart_toStartOf="@+id/policyButton"
+        app:layout_constraintTop_toBottomOf="@+id/policyButton" />
+
+    <Button
+        android:id="@+id/vacationButton"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/vacation"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
+        app:layout_constraintStart_toStartOf="@+id/benefitsButton"
+        app:layout_constraintTop_toBottomOf="@+id/benefitsButton" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- Whats on the popup menu(hamburger button) -->
