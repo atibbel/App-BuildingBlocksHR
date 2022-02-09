@@ -4,12 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_benefits.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policy.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_vacation.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/mai_popout_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/main_popout_header.xml" value="0.38269927536231885" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/nav_activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/hamburger_header.xml" value="0.8359375" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/main_activity_actions.xml" value="0.8359375" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/main_toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/policy_pop_up_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/popout_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
