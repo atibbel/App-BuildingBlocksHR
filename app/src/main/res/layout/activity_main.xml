@@ -141,7 +141,7 @@
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_menu"/>
+            app:menu="@menu/popout_custom_plan"/>
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
