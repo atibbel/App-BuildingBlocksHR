@@ -67,6 +67,11 @@ public class MainActivity_Custom extends AppCompatActivity {
                     Intent nextPage2 = new Intent(MainActivity_Custom.this, VacationActivity.class);
                     startActivity(nextPage2);
                     break;
+
+                case R.id.popout_other_leaves:
+                Intent nextPage3 = new Intent(MainActivity_Custom.this, VacationActivity.class);
+                startActivity(nextPage3);
+                break;
             }
 
             onOptionsItemSelected(item);
