@@ -1,6 +1,5 @@
 package algonquin.cst2335.buildingblockshr;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +13,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -66,7 +64,7 @@ public class MainActivity_Standard extends AppCompatActivity {
                     break;
 
                 case R.id.popout_benefits:
-                    Intent nextPage2 = new Intent(MainActivity_Standard.this, BenefitsActivity.class);
+                    Intent nextPage2 = new Intent(MainActivity_Standard.this, BenefitsActivity_Standard.class);
                     startActivity(nextPage2);
                     break;
 
@@ -87,7 +85,7 @@ public class MainActivity_Standard extends AppCompatActivity {
             Toast.makeText(MainActivity_Standard.this, gettingThatToast, Toast.LENGTH_LONG).show();
         });
         benefitsButton.setOnClickListener( clk-> {
-            Intent nextPage = new Intent(MainActivity_Standard.this, BenefitsActivity.class);
+            Intent nextPage = new Intent(MainActivity_Standard.this, BenefitsActivity_Standard.class);
             startActivity(nextPage);
             Toast.makeText(MainActivity_Standard.this, gettingThatToast, Toast.LENGTH_LONG).show();
         });

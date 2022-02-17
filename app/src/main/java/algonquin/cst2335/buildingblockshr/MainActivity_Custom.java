@@ -59,7 +59,7 @@ public class MainActivity_Custom extends AppCompatActivity {
                     break;
 
                 case R.id.popout_benefits:
-                    Intent nextPage1 = new Intent(MainActivity_Custom.this, BenefitsActivity.class);
+                    Intent nextPage1 = new Intent(MainActivity_Custom.this, BenefitsActivity_Standard.class);
                     startActivity(nextPage1);
                     break;
 
@@ -85,7 +85,7 @@ public class MainActivity_Custom extends AppCompatActivity {
             Toast.makeText(MainActivity_Custom.this, gettingThatToast, Toast.LENGTH_LONG).show();
         });
         benefitsButton.setOnClickListener( clk-> {
-            Intent nextPage = new Intent(MainActivity_Custom.this, BenefitsActivity.class);
+            Intent nextPage = new Intent(MainActivity_Custom.this, BenefitsActivity_Standard.class);
             startActivity(nextPage);
             Toast.makeText(MainActivity_Custom.this, gettingThatToast, Toast.LENGTH_LONG).show();
         });

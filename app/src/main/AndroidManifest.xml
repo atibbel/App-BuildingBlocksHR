@@ -14,7 +14,7 @@
             android:name=".VacationActivity"
             android:exported="false" />
         <activity
-            android:name=".BenefitsActivity"
+            android:name=".BenefitsActivity_Standard"
             android:exported="false" />
         <activity
             android:name=".PolicyActivity"
