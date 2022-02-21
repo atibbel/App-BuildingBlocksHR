@@ -14,13 +14,13 @@
             android:name=".VacationActivity"
             android:exported="false" />
         <activity
-            android:name=".BenefitsActivity"
+            android:name=".BenefitsActivity_Standard"
             android:exported="false" />
         <activity
             android:name=".PolicyActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_Custom"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

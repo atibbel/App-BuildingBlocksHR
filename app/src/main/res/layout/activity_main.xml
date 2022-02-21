@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity_Custom">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -141,7 +141,7 @@
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_menu"/>
+            app:menu="@menu/popout_custom_plan"/>
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
