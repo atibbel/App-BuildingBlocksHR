@@ -14,5 +14,6 @@
     <string name="other_policies">Other Policies</string>
     <string name="vacation">Vacation</string>
     <string name="benefits">Benefits</string>
+    <string name="loading">Just a moment...</string>
 
 </resources>

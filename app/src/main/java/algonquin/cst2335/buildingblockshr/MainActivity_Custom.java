@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -24,12 +25,9 @@ public class MainActivity_Custom extends AppCompatActivity {
 
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_activity_actions, menu); // inflate the xml object(menu) into the tool bar -- R.directory.file , object to inflate into
-
         return true;
-
         //return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +36,7 @@ public class MainActivity_Custom extends AppCompatActivity {
         Button policyButton = findViewById(R.id.policyButton);
         Button benefitsButton = findViewById(R.id.benefitsButton);
         Button vacationButton = findViewById(R.id.vacationButton);
-
-        String gettingThatToast = "Getting that for you...";
+        Button demoButton = findViewById(R.id.demobutton) ;
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
@@ -59,7 +56,7 @@ public class MainActivity_Custom extends AppCompatActivity {
                     break;
 
                 case R.id.popout_benefits:
-                    Intent nextPage1 = new Intent(MainActivity_Custom.this, BenefitsActivity_Standard.class);
+                    Intent nextPage1 = new Intent(MainActivity_Custom.this, BenefitsActivity_Custom.class);
                     startActivity(nextPage1);
                     break;
 
@@ -69,8 +66,8 @@ public class MainActivity_Custom extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                Intent nextPage3 = new Intent(MainActivity_Custom.this, VacationActivity.class);
-                startActivity(nextPage3);
+                    Intent nextPage3 = new Intent(MainActivity_Custom.this, OtherLeaves.class);
+                    startActivity(nextPage3);
                 break;
             }
 
@@ -82,18 +79,19 @@ public class MainActivity_Custom extends AppCompatActivity {
         policyButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity_Custom.this, PolicyActivity.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, gettingThatToast, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
         });
         benefitsButton.setOnClickListener( clk-> {
-            Intent nextPage = new Intent(MainActivity_Custom.this, BenefitsActivity_Standard.class);
+            Intent nextPage = new Intent(MainActivity_Custom.this, BenefitsActivity_Custom.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, gettingThatToast, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
         });
         vacationButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity_Custom.this, VacationActivity.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, gettingThatToast, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
         });
+
     }
 
     @Override
@@ -115,5 +113,10 @@ public class MainActivity_Custom extends AppCompatActivity {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void demoButton(View view) {
+        Intent nextPage = new Intent(MainActivity_Custom.this, UserDemoActivity.class);
+        startActivity(nextPage);
     }
 }
