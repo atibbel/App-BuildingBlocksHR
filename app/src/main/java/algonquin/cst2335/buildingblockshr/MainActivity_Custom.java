@@ -36,11 +36,9 @@ public class MainActivity_Custom extends AppCompatActivity {
         Button policyButton = findViewById(R.id.policyButton);
         Button benefitsButton = findViewById(R.id.benefitsButton);
         Button vacationButton = findViewById(R.id.vacationButton);
-        Button demoButton = findViewById(R.id.demobutton) ;
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
-
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, myToolbar, R.string.open, R.string.close); // create string open and close

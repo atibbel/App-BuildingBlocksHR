@@ -14,8 +14,7 @@ import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class OtherLeaves extends AppCompatActivity {
-
+public class AodaPolicyActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -29,7 +28,7 @@ public class OtherLeaves extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other_leaves);
+        setContentView(R.layout.activity_aoda_policy);
 
         Button policyButton = findViewById(R.id.policyButton);
         Button benefitsButton = findViewById(R.id.benefitsButton);
@@ -47,22 +46,22 @@ public class OtherLeaves extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener((item)->{
             switch(item.getItemId()) {
                 case R.id.popout_policies:
-                    Intent nextPage = new Intent(OtherLeaves.this, PolicyActivity.class);
+                    Intent nextPage = new Intent(AodaPolicyActivity.this, PolicyActivity.class);
                     startActivity(nextPage);
                     break;
 
                 case R.id.popout_benefits:
-                    Intent nextPage1 = new Intent(OtherLeaves.this, BenefitsActivity_Custom.class);
+                    Intent nextPage1 = new Intent(AodaPolicyActivity.this, BenefitsActivity_Custom.class);
                     startActivity(nextPage1);
                     break;
 
                 case R.id.popout_vacation:
-                    Intent nextPage2 = new Intent(OtherLeaves.this, VacationActivity.class);
+                    Intent nextPage2 = new Intent(AodaPolicyActivity.this, VacationActivity.class);
                     startActivity(nextPage2);
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(OtherLeaves.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(AodaPolicyActivity.this, OtherLeaves.class);
                     startActivity(nextPage3);
                     break;
             }

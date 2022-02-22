@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".PolicyActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity_Custom">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -13,6 +15,18 @@
         android:id="@+id/toolbar"
         android:background="?attr/colorPrimary"
         tools:ignore="MissingConstraints" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
@@ -83,66 +97,86 @@
         android:id="@+id/textView5"
         android:layout_width="237dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
         android:text="STANDARD COMPLIANCE"
         android:textColor="@color/purple_700"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="226dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/policy_violence"
         android:layout_width="94dp"
         android:layout_height="22dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="policy_violence"
         android:text="1 Violence"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="286dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/policy_harassment"
         android:layout_width="264dp"
         android:layout_height="22dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="policy_harassment"
         android:text="2 Workplace and Sexual Harassment"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintStart_toStartOf="@+id/policy_violence"
+        app:layout_constraintTop_toBottomOf="@+id/policy_violence"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/policy_Aoda"
         android:layout_width="77dp"
         android:layout_height="18dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="policy_Aoda"
         android:text="3 AODA"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="362dp" />
+        app:layout_constraintStart_toStartOf="@+id/policy_harassment"
+        app:layout_constraintTop_toBottomOf="@+id/policy_harassment"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/policy_HealthSafety"
         android:layout_width="159dp"
         android:layout_height="22dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="policy_HealthSafety"
         android:text="4 Health and Safety"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintStart_toStartOf="@+id/policy_Aoda"
+        app:layout_constraintTop_toBottomOf="@+id/policy_Aoda"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/policy_Privacy"
         android:layout_width="227dp"
         android:layout_height="29dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:onClick="policyPrivacy"
         android:text=" 5 Privacy and Personal Information"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="438dp" />
+        app:layout_constraintStart_toStartOf="@+id/policy_HealthSafety"
+        app:layout_constraintTop_toBottomOf="@+id/policy_HealthSafety"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Whats on the popup menu(hamburger button) -->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/popout_menu"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/main_popout_header"
+            app:menu="@menu/popout_custom_plan"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

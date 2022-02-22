@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildingBlocksHR">
         <activity
+            android:name=".HealthAndSafetyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AodaPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HarassmentPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViolencePolicyActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_Standard"
             android:exported="false" />
         <activity
