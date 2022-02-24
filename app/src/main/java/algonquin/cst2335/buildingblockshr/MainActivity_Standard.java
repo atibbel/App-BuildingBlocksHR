@@ -65,10 +65,9 @@ public class MainActivity_Standard extends AppCompatActivity {
                     startActivity(nextPage2);
                     break;
 
-                case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(MainActivity_Standard.this, OtherLeaves.class);
-                    startActivity(nextPage3);
-                    break;
+                case R.id.home:
+                    Intent nextPage4 = new Intent(MainActivity_Standard.this, MainActivity_Standard.class);
+                    startActivity(nextPage4);
             }
 
             onOptionsItemSelected(item);

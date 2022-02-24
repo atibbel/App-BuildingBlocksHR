@@ -14,7 +14,7 @@ import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class OtherLeaves extends AppCompatActivity {
+public class OtherLeavesActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -47,24 +47,26 @@ public class OtherLeaves extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener((item)->{
             switch(item.getItemId()) {
                 case R.id.popout_policies:
-                    Intent nextPage = new Intent(OtherLeaves.this, PolicyActivity.class);
+                    Intent nextPage = new Intent(OtherLeavesActivity.this, PolicyActivity.class);
                     startActivity(nextPage);
                     break;
 
                 case R.id.popout_benefits:
-                    Intent nextPage1 = new Intent(OtherLeaves.this, BenefitsActivity_Custom.class);
+                    Intent nextPage1 = new Intent(OtherLeavesActivity.this, BenefitsActivity_Custom.class);
                     startActivity(nextPage1);
                     break;
 
                 case R.id.popout_vacation:
-                    Intent nextPage2 = new Intent(OtherLeaves.this, VacationActivity.class);
+                    Intent nextPage2 = new Intent(OtherLeavesActivity.this, VacationActivity.class);
                     startActivity(nextPage2);
                     break;
-
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(OtherLeaves.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(OtherLeavesActivity.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                     break;
+                case R.id.home:
+                    Intent nextPage4 = new Intent(OtherLeavesActivity.this, MainActivity_Custom.class);
+                    startActivity(nextPage4);
             }
 
             onOptionsItemSelected(item);

@@ -10,6 +10,13 @@
         android:textStyle="bold"
         android:title="COMPANY LOGO ON THE SITE"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/home"
+        android:fontFamily="@font/poppins_light"
+        android:icon="@drawable/home"
+        android:textColor="#4CAF50"
+        app:showAsAction="always"
+        android:title="HOME" />
 
 
     <item
@@ -47,7 +54,21 @@
         app:showAsAction="always"/>
     <item android:title="     3. Other Benefits(i.e. LTD)"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/popout_vacation"
+        android:fontFamily="@font/poppins_light"
+        android:icon="@drawable/vacation"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:title="VACATION"
+        app:showAsAction="always" />
 
+    <item android:title="     1. Policy"
+        app:showAsAction="always"/>
+    <item android:title="     2. Schedule time off"
+        app:showAsAction="always"/>
+    <item android:title="     3. Days Remaining"
+        app:showAsAction="always"/>
 
 </menu>
     <!-- icons downlaoded from ... -->

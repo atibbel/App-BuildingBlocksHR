@@ -12,6 +12,14 @@
         android:title="COMPANY LOGO ON THE SITE"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/home"
+        android:fontFamily="@font/poppins_light"
+        android:icon="@drawable/home"
+        android:textColor="#4CAF50"
+        app:showAsAction="always"
+        android:title="HOME" />
+
 
     <item
         android:id="@+id/popout_policies"
@@ -19,7 +27,7 @@
         android:icon="@drawable/policy"
         android:textColor="#4CAF50"
         android:textStyle="bold"
-        android:title="STANDARD COMPLIANCE"
+        android:title="STANDARD COMPLIANCE POLICIES"
         app:showAsAction="always" />
 
     <item android:title="     1 Violence"

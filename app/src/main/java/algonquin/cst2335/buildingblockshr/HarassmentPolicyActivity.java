@@ -62,7 +62,7 @@ public class HarassmentPolicyActivity extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(HarassmentPolicyActivity.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(HarassmentPolicyActivity.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                     break;
             }

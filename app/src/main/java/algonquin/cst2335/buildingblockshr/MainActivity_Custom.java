@@ -36,6 +36,7 @@ public class MainActivity_Custom extends AppCompatActivity {
         Button policyButton = findViewById(R.id.policyButton);
         Button benefitsButton = findViewById(R.id.benefitsButton);
         Button vacationButton = findViewById(R.id.vacationButton);
+        Button otherButton = findViewById(R.id.otherButton);
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
@@ -64,9 +65,13 @@ public class MainActivity_Custom extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(MainActivity_Custom.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(MainActivity_Custom.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                 break;
+
+                case R.id.home:
+                    Intent nextPage4 = new Intent(MainActivity_Custom.this, MainActivity_Custom.class);
+                    startActivity(nextPage4);
             }
 
             onOptionsItemSelected(item);
@@ -77,18 +82,24 @@ public class MainActivity_Custom extends AppCompatActivity {
         policyButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity_Custom.this, PolicyActivity.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
         benefitsButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity_Custom.this, BenefitsActivity_Custom.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
         vacationButton.setOnClickListener( clk-> {
             Intent nextPage = new Intent(MainActivity_Custom.this, VacationActivity.class);
             startActivity(nextPage);
-            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
+        otherButton.setOnClickListener( clk-> {
+            Intent nextPage = new Intent(MainActivity_Custom.this, OtherLeavesActivity.class);
+            startActivity(nextPage);
+            Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_SHORT).show();
+        });
+
 
     }
 
@@ -117,4 +128,5 @@ public class MainActivity_Custom extends AppCompatActivity {
         Intent nextPage = new Intent(MainActivity_Custom.this, UserDemoActivity.class);
         startActivity(nextPage);
     }
+
 }

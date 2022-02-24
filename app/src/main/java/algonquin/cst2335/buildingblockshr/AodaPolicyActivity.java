@@ -61,7 +61,7 @@ public class AodaPolicyActivity extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(AodaPolicyActivity.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(AodaPolicyActivity.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                     break;
             }

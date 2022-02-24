@@ -63,9 +63,12 @@ public class PolicyActivity extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(PolicyActivity.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(PolicyActivity.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                     break;
+                case R.id.home:
+                    Intent nextPage4 = new Intent(PolicyActivity.this, MainActivity_Custom.class);
+                    startActivity(nextPage4);
             }
 
             onOptionsItemSelected(item);

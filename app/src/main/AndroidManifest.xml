@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildingBlocksHR">
         <activity
+            android:name=".BenefitsActivity_Plus"
+            android:exported="false" />
+        <activity
+            android:name=".BenefitsActivity_Plus2"
+            android:exported="false" />
+        <activity
+            android:name=".BenefitsActivity_Custom"
+            android:exported="false" />
+        <activity
+            android:name=".OtherLeavesActivity"
+            android:exported="false" />
+        <activity
             android:name=".HealthAndSafetyActivity"
             android:exported="false" />
         <activity

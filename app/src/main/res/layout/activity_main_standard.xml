@@ -122,10 +122,10 @@
                 android:layout_width="281dp"
                 android:layout_height="42dp"
                 android:layout_marginTop="35dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/vacation"
-                android:textStyle="bold"
                 android:backgroundTint="#4CAF50"
+                android:fontFamily="@font/poppins_light"
+                android:text="Vacation"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
                 app:layout_constraintStart_toStartOf="@+id/benefitsButton"
                 app:layout_constraintTop_toBottomOf="@+id/benefitsButton" />
@@ -141,7 +141,7 @@
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_custom_plan"/>
+            app:menu="@menu/popout_standard_plan"/>
 
     </androidx.drawerlayout.widget.DrawerLayout>
 

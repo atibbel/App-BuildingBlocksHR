@@ -122,26 +122,37 @@
         android:layout_width="281dp"
         android:layout_height="42dp"
         android:layout_marginTop="35dp"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/vacation"
-        android:textStyle="bold"
         android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/poppins_light"
+        android:text="Vacation"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
         app:layout_constraintStart_toStartOf="@+id/benefitsButton"
         app:layout_constraintTop_toBottomOf="@+id/benefitsButton" />
 
-<!-- Delete demo button after demo-->
+    <!-- Delete demo button after demo-->
     <Button
-        android:id="@+id/demobutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="DEMO"
-        android:onClick="demoButton"
+        android:id="@+id/otherButton"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Other Leaves"
         app:layout_constraintEnd_toEndOf="@+id/vacationButton"
         app:layout_constraintStart_toStartOf="@+id/vacationButton"
         app:layout_constraintTop_toBottomOf="@+id/vacationButton" />
 
+    <Button
+        android:id="@+id/demobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="demoButton"
+        android:text="DEMO"
+        app:layout_constraintEnd_toEndOf="@+id/vacationButton"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/vacationButton"
+        app:layout_constraintTop_toBottomOf="@+id/otherButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

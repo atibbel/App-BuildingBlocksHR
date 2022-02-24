@@ -60,7 +60,7 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
                     break;
 
                 case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(PrivacyPolicyActivity.this, OtherLeaves.class);
+                    Intent nextPage3 = new Intent(PrivacyPolicyActivity.this, OtherLeavesActivity.class);
                     startActivity(nextPage3);
                     break;
             }
