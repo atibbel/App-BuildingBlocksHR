@@ -99,8 +99,6 @@ public class MainActivity_Custom extends AppCompatActivity {
             startActivity(nextPage);
             Toast.makeText(MainActivity_Custom.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
-
-
     }
 
     @Override

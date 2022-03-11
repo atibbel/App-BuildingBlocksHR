@@ -19,19 +19,16 @@
     <string name="scope_heading">Applicability and Scope</string>
     <string name="scope">This policy applies to all the company employees, including temporary employees and independent contractors.</string>
     <string name="scope_applicable">The policy is applicable whenever an employee or independent contractor:</string>
-    <string name="p1bullet1">\u2022,Carries out duties or conducts business on behalf of the company;</string>
-    <string name="p1bullet2">• Represents the company on committees or at work related events/conferences</string>
-    <string name="p1bullet3">• Attends work-related and industry functions; and/or</string>
-    <string name="p1bullet4">• Socializes with other employees.</string>
+    <string name="p1bullet1">\u2022,Carries out duties or conducts business on behalf of the company;<BR/>• Represents the company on committees or at work related events/conferences
+    <br/>• Attends work-related and industry functions; and/or <br/>• Socializes with other employees.</string>
+
     <string name="scope_location"> Locations and situations covered by this policy include, but are not limited to:</string>
-    <string name="location_bullet1">• the company offices and worksites;</string>
-    <string name="location_bullet2">• Other buildings or premises under the jurisdiction of the company;</string>
-    <string name="location_bullet3">• Company vehicles;</string>
-    <string name="location_bullet4">• Social functions sanctioned by or under the jurisdiction of the company whether held at company offices or facilities or at other locations approved by the company;</string>
-    <string name="location_bullet5">• Work-related travel outside of company facilities;</string>
-    <string name="location_bullet6">• Incidents which occur outside the workplace, but have negative repercussions at work or adversely affect working relationships;</string>
-    <string name="location_bullet7">• Harassment that occurs by electronic means (e-mail, telephone, voice mail, internet, or fax) or written communication; and"</string>
-    <string name="location_bullet8">• Any other locations or events where company business, operations, or social functions are carried out.</string>
+    <string name="location_bullet1">• the company offices and worksites;<br/> • Other buildings or premises under the jurisdiction of the company; <br/>• Company vehicles;<br/>
+    • Social functions sanctioned by or under the jurisdiction of the company whether held at company offices or facilities or at other locations approved by the company;
+    <br/>• Work-related travel outside of company facilities; <br/>• Incidents which occur outside the workplace, but have negative repercussions at work or adversely affect working relationships;
+    <br/> • Harassment that occurs by electronic means (e-mail, telephone, voice mail, internet, or fax) or written communication; and <br/>
+        • Any other locations or events where company business, operations, or social functions are carried out.</string>
+
     <string name="policyIntent_heading">Policy Intent</string>
     <string name="intentp1">The company recognizes that every person is entitled to a safe work environment that is free of violence and threatening behaviour.</string>
     <string name="intentp2">The company will adhere to the spirit and intent of all applicable federal and provincial legislation governing workplace violence including, but not limited to, the Occupational Health and Safety Act, the Criminal Code, and Bill 168, etc.</string>
@@ -42,30 +39,75 @@
     <string name="intentp7">This policy outlines the commitment, principles and procedures that the company will follow with respect to preventing and stopping violence in the workplace.</string>
     <string name="purpose_heading">Purpose</string>
     <string name="purpose_p1">The purpose of this policy is to provide information to all employees regarding:</string>
-    <string name="purpose_bullet1">• Workplace Violence</string>
-    <string name="purpose_bullet2">• Handling Complaints</string>
+    <string name="purpose_bullet1">• Workplace Violence <br/> • Handling Complaints </string>
+
     <string name="accountability_heading">Accountability</string>
     <string name="accountability_p1">The company will, in accordance with all provincial legislation and Occupational Health and Safety Act:</string>
-    <string name="account_bullet1">• Appoint a Workplace Violence and Harassment Coordinator;</string>
-    <string name="account_bullet2">• Assess the risk of workplace violence that may result from the nature of the company worksites and the nature and conditions of work performed there;</string>
-    <string name="account_bullet3">• Establish and maintain procedures to control the risks identified in the risk assessment;</string>
-    <string name="account_bullet4">• Reassess the risk of workplace violence as often as is necessary;</string>
-    <string name="account_bullet5">• Take every reasonable precaution to protect employees from domestic violence that may occur in the workplace and expose employees to physical injury;</string>
-    <string name="account_bullet6">• Establish measures for summoning immediate assistance when workplace violence is threatened, occurs, or is likely to occur;</string>
-    <string name="account_bullet7">• Inform employees on when and how to seek medical assistance should a violent incident occur in the workplace;</string>
-    <string name="account_bullet8">• Establish a reporting procedure for incidents or threats of workplace violence;</string>
-    <string name="account_bullet9"></string>
-    <string name="account_bullet10">• Provide all employees with training and information regarding this policy and associated procedures;</string>
-    <string name="account_bullet11">• Monitor the company compliance with this policy and established procedures;</string>
+    <string name="account_bullet1">• Appoint a Workplace Violence and Harassment Coordinator; <br/>• Assess the risk of workplace violence that may result from the nature of the company worksites and the nature and conditions of work performed there;
+    <br/>• Establish and maintain procedures to control the risks identified in the risk assessment;<br/>
+    • Reassess the risk of workplace violence as often as is necessary;<br/>• Take every reasonable precaution to protect employees from domestic violence that may occur in the workplace and expose employees to physical injury;
+    <br/>• Establish measures for summoning immediate assistance when workplace violence is threatened, occurs, or is likely to occur;<br/>
+   • Inform employees on when and how to seek medical assistance should a violent incident occur in the workplace; <br/> \u2022 Establish an investigation procedure for dealing with incidents or allegations of workplace violence or threats of violence;
+    <br/>• Provide all employees with training and information regarding this policy and associated procedures; <br/>• Monitor the company compliance with this policy and established procedures;  </string>
     <string name="account_bullet12">• Review this policy annually to ensure that it is current and effective.</string>
+
     <string name="accountability_p2">Accountability for ensuring compliance with the provisions of this policy rests with Management.</string>
     <string name="account_responsibilities">Responsibilities of Employees:</string>
-    <string name="responsibilities_bullet1">• Familiarize themselves with this policy;</string>
-    <string name="responsibilities_bullet2">• Attend any training related to this policy;</string>
-    <string name="responsibilities_bullet3">• Ask their supervisor for clarification on this policy if they have questions;</string>
-    <string name="responsibilities_bullet4">• Help promote a violence-free workplace;</string>
-    <string name="responsibilities_bullet5">• Refrain from workplace violence as defined in this policy; and</string>
-    <string name="responsibilities_bullet6">• Immediately report to appropriate management staff incidents of, threats of, or potential for workplace violence, whether directly experienced or witnessed.</string>
+    <string name="responsibilities_bullet1">• Familiarize themselves with this policy;<br/> • Attend any training related to this policy;<br/>• Ask their supervisor for clarification on this policy if they have questions;
+    <br/>• Help promote a violence-free workplace;<br/> • Refrain from workplace violence as defined in this policy; and<br/>
+    • Immediately report to appropriate management staff incidents of, threats of, or potential for workplace violence, whether directly experienced or witnessed.</string>
+
+    <string name="account_management">Responsibilities of Management:</string>
+    <string name="management_bullet1">\u2022 Foster a violence-free workplace; <br/>• Ensure that employees receive adequate information and training on this policy; <br/>
+    • Report any incidents or potential for workplace violence; <br/> • Investigate all aspects of any reported instances of harassment in conjunction with reporting in a timely manner;
+    <br/>• Maintain confidentiality in the investigation process; <br/> • If a member of management becomes aware or receives knowledge that:</string>
+
+    <string name="management_bullet6i">i.  Domestic violence may occur in the workplace that would likely expose any employee to physical injury;<br/>
+    ii.  An employee may, in the course of their duties, encounter another employee or other person who has a history of violent behaviour, and <br/>
+    iii.  There is a risk of workplace violence that is likely to expose the employee to physical injury.</string>
+
+    <string name="management_responsibilities">Management will immediately advise who will provide information, including personal information, to the employee sufficient to protect them from physical injury. Personal information will only be provided that is reasonably necessary to protect the employee from physical injury.</string>
+    <string name="violence_workplace_heading">Violence in the Workplace</string>
+    <string name="violence_intro">Violence in the workplace involves the infliction of physical and/or mental injuries by an individual or individuals, whether employed or not employed by the company. The company prohibits any type of violence in the work environment and employees who exhibit workplace violence will be subject to disciplinary action up to and including termination of employment.</string>
+    <string name="violence_def">\"Workplace violence\" means but not limited to:</string>
+    <string name="violence_def_bullet1">• The exercise of physical force against an employee in a workplace that causes, or could cause, physical injury to the employee, their personal property, their family, or their friends;
+    <br/>• An attempt to exercise physical force against an employee in a workplace that could cause physical injury to the employee, their personal property, their family, or their friends;
+    <br/>• A statement or behaviour that is reasonable for an employee to interpret as a threat to exercise physical force against an employee, in a workplace, that causes or could cause physical injury to the employee;
+    <br/>• Physical acts (e.g. hitting, shoving, pushing, kicking, sexual assault);
+    <br/>• Any threat, behaviour or action which is interpreted to carry the potential to harm or endanger the safety of others, result in an act of aggression, or destroy or damage property;
+    <br/>• Disruptive behaviour that is not appropriate to the work environment (e.g. yelling, swearing);
+    <br/>• Any such actions which occur outside the workplace, but have repercussions in the work environment. </string>
+
+    <string name="violence_example">Examples of workplace violence include, but are not limited to:</string>
+    <string name="violence_ex_bullet1">• Allowing or engaging in violent events/behaviour and threats verbal or written or physical gestures;
+    <br/> • Harassing phone calls, voicemails or e-mail messages;
+    <br/> • Having/threatening with a weapon;
+    <br/> • Offensive comments;
+    <br/> • Physical assault.</string>
+
+    <string name="weapons_example">Examples of Weapons include, but are not limited to:</string>
+    <string name="weapons_ex_bullet1">• Dangerous chemicals other than mace or pepper spray;
+    <br/> • Firearms;
+    <br/> • Knives with a blade length of 3.5 inches or greater.</string>
+
+    <string name="prevention_guidelines">The following are some general guidelines for helping to prevent violence in the workplace:</string>
+    <string name="prevention_bullet1">• Do not personalize the words or actions (i.e.: don’t get defensive and don’t feed into their anger);
+    <br/> • Stick to the issues or facts of the situation;
+    <br/> • Be polite and professional;
+    <br/> • Try to paraphrase the other party’s concerns back to them, to let them know that they are being heard and understood;
+    <br/> • Do not attempt to physically touch the other party;
+    <br/> • Report, record and investigate all incidents of violence;
+    <br/> • If an employee has been the victim of violence in the workplace, be sure to complete and submit a report (within 24 hours of occurrence), so that this individual can receive appropriate counselling.</string>
+
+    <string name="incident_report">In the event that an employee is either directly affected by or witness to any violence in the workplace, it is imperative for the safety of all the company employees that the incident be reported without delay.</string>
+    <string name="incident_report_bullet1">• Report any violence or potentially violent situations immediately to management;
+    <br/> • Depending on the severity of the situation, the local police may be called;
+    <br/> • All reports shall be kept confidential;
+    <br/> • All reports shall be investigated, and dealt with appropriately;
+    <br/> • Any the company employee who threatens, harasses or abuses another employee, or any other individual at or from the workplace shall be subject to disciplinary action, up to and including termination of employment,
+        and the pursuit of appropriate legal action;
+    <br/> • Violent action, threats and assault are serious criminal offences, and shall be dealt with appropriately.</string>
+
 
 
 </resources>

@@ -25,7 +25,7 @@
         android:icon="@drawable/policy"
         android:textColor="#4CAF50"
         android:textStyle="bold"
-        android:title="STANDARD COMPLIANCE"
+        android:title="STANDARD COMPLIANCE POLICIES"
         app:showAsAction="always" />
 
     <item android:title="     1 Violence"

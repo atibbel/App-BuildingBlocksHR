@@ -14,7 +14,7 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bbhr_icon"
-        android:contentDescription="Main App logo" />
+        android:contentDescription="Main App logo"
+        app:srcCompat="@drawable/bbhr_icon" />
 
 </LinearLayout>
