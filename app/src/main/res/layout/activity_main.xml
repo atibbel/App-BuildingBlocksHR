@@ -77,8 +77,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="258dp"
-        android:layout_height="33dp"
+        android:layout_width="259dp"
+        android:layout_height="16dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="           Welcome back username!"
@@ -130,7 +130,6 @@
         app:layout_constraintStart_toStartOf="@+id/benefitsButton"
         app:layout_constraintTop_toBottomOf="@+id/benefitsButton" />
 
-    <!-- Delete demo button after demo-->
     <Button
         android:id="@+id/otherButton"
         android:layout_width="281dp"
@@ -142,19 +141,6 @@
         app:layout_constraintStart_toStartOf="@+id/vacationButton"
         app:layout_constraintTop_toBottomOf="@+id/vacationButton" />
 
-<!-- REMOVE DEMO BUTTON AFTER ALL IN CLASS DEMOS ARE COMPLETED
-    <Button
-        android:id="@+id/demobutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:onClick="demoButton"
-        android:text="DEMO"
-        app:layout_constraintEnd_toEndOf="@+id/vacationButton"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/vacationButton"
-        app:layout_constraintTop_toBottomOf="@+id/otherButton" />
-        -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -44,30 +44,42 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String email = edittext_email.getText().toString();
+                String password = edittext_password.getText().toString();
 
-                if(validateEmail(edittext_email)) {
+                boolean validate = validateLogin(email, password);
+                if(validate){
                     Intent nextPage = new Intent(LoginActivity.this, MainActivity_Custom.class);
                     startActivity(nextPage);
-                } // eof if
-            }// eof onClick method
-        }); //eof loginButton.onClick
+                }
+            }
+        });
 
-    }
-    private boolean validateEmail(EditText email){
-        String emailInput = email.getText().toString();
 
-        if (!emailInput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailInput).matches()){
-            return true;
-        } // eof if
-        else{
-            AlertDialog.Builder builder2 = new AlertDialog.Builder(LoginActivity.this);
-            builder2.setMessage("Oops! That dosen't look right. Please enter a valid email address.")
-                    .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
-                    }).create().show();
+    } //eof onCreate
+    // method to validate the users login
+    private boolean validateLogin(String email, String password){
+        if(email.length()==0){
+            edittext_email.requestFocus();
+            edittext_email.setError("Email cannot be empty");
             return false;
+        }
+        else if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            edittext_email.requestFocus();
+            edittext_email.setError("Email not valid");
+            return false;
+        }
+        else if(password.length()<=8){
+            edittext_password.requestFocus();
+            edittext_password.setError("Password must be at least 8 characters long.");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }//eof validateLogin
 
-        } //eof else
-    }// eof validateEmail
+
 
 
 }

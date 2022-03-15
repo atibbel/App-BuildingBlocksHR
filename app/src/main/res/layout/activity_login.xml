@@ -85,7 +85,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/people_puzzel" />
+        app:srcCompat="@drawable/greenpuzzel" />
 
     <TextView
         android:id="@+id/textView3"
@@ -119,6 +119,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins_light"
         android:hint="password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@id/edittext_email"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/edittext_email"
