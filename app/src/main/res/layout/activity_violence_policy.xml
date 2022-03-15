@@ -61,8 +61,9 @@
         android:background="#3F51B5"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -80,8 +81,9 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="374dp"
-        android:layout_height="41dp"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/scope"
         android:textColor="#201D1D"
@@ -91,7 +93,7 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="385dp"
+        android:layout_width="375dp"
         android:layout_height="38dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/scope_applicable"
@@ -119,7 +121,7 @@
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="385dp"
+        android:layout_width="375dp"
         android:layout_height="38dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_light"
@@ -156,23 +158,23 @@
         android:text="@string/policyIntent_heading"
         android:textColor="#2196F3"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <TextView
         android:id="@+id/textView33"
-        android:layout_width="342dp"
-        android:layout_height="match_parent"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_light"
         android:text="@string/intentp1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
         app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -184,7 +186,7 @@
 
     <TextView
         android:id="@+id/textView36"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -196,7 +198,7 @@
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -208,7 +210,7 @@
 
     <TextView
         android:id="@+id/textView38"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -220,7 +222,7 @@
 
     <TextView
         android:id="@+id/textView39"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -232,7 +234,7 @@
 
     <TextView
         android:id="@+id/textView40"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -241,7 +243,7 @@
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView39"
         app:layout_constraintTop_toBottomOf="@+id/textView39" />
-
+<!-- PURPOSE-->
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
@@ -256,7 +258,7 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -268,7 +270,7 @@
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="342dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light"
@@ -294,7 +296,7 @@
 
     <TextView
         android:id="@+id/textView46"
-        android:layout_width="342dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -306,7 +308,7 @@
 
     <TextView
         android:id="@+id/textView47"
-        android:layout_width="321dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -318,20 +320,20 @@
 
     <TextView
         android:id="@+id/textView58"
-        android:layout_width="309dp"
+        android:layout_width="335dp"
         android:layout_height="38dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/account_bullet12"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView46"
+        app:layout_constraintStart_toStartOf="@+id/textView47"
         app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
     <TextView
         android:id="@+id/textView59"
-        android:layout_width="349dp"
+        android:layout_width="375dp"
         android:layout_height="41dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -344,7 +346,7 @@
     <!-- Responsibilities of Employees -->
     <TextView
         android:id="@+id/textView60"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -357,21 +359,21 @@
 
     <TextView
         android:id="@+id/textView61"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/responsibilities_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView46"
+        app:layout_constraintStart_toStartOf="@+id/textView47"
         app:layout_constraintTop_toBottomOf="@+id/textView60" />
 
 
     <!-- RESPONSIBILITIES OF MANAGEMENT STARTS HERE -->
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -384,38 +386,39 @@
 
     <TextView
         android:id="@+id/textView68"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/management_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView67"
+        app:layout_constraintStart_toStartOf="@+id/textView61"
         app:layout_constraintTop_toBottomOf="@+id/textView67" />
 
     <TextView
         android:id="@+id/textView74"
-        android:layout_width="320dp"
+        android:layout_width="335dp"
         android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/management_bullet6i"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView58"
+        app:layout_constraintStart_toStartOf="@+id/textView68"
         app:layout_constraintTop_toBottomOf="@+id/textView68" />
 
     <TextView
         android:id="@+id/textView77"
-        android:layout_width="349dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/management_responsibilities"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView68"
+        app:layout_constraintStart_toStartOf="@+id/textView67"
         app:layout_constraintTop_toBottomOf="@+id/textView74" />
 
     <!-- Violence in the workplace -->
@@ -433,8 +436,8 @@
 
     <TextView
         android:id="@+id/textView79"
-        android:layout_width="349dp"
-        android:layout_height="41dp"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/violence_intro"
@@ -446,7 +449,7 @@
     <!-- sub heading -->
     <TextView
         android:id="@+id/textView80"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -459,20 +462,20 @@
 
     <TextView
         android:id="@+id/textView81"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/violence_def_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView79"
+        app:layout_constraintStart_toStartOf="@+id/textView68"
         app:layout_constraintTop_toBottomOf="@+id/textView80" />
 
     <!-- WORKPLACE VIOLENCE EXAMPLES -->
     <TextView
         android:id="@+id/textView88"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -485,21 +488,21 @@
 
     <TextView
         android:id="@+id/textView89"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/violence_ex_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView88"
+        app:layout_constraintStart_toStartOf="@+id/textView81"
         app:layout_constraintTop_toBottomOf="@+id/textView88" />
 
 
     <!-- WORKPLACE WEAPONS EXAMPLES -->
     <TextView
         android:id="@+id/textView94"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -514,57 +517,56 @@
     <!-- PREVENTION GUIDELINES -->
     <TextView
         android:id="@+id/textView95"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/weapons_ex_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView94"
+        app:layout_constraintStart_toStartOf="@+id/textView89"
         app:layout_constraintTop_toBottomOf="@+id/textView94" />
 
     <TextView
         android:id="@+id/textView98"
-        android:layout_width="355dp"
+        android:layout_width="375dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/prevention_guidelines"
         android:textColor="#1976D2"
         android:textSize="12sp"
-
         app:layout_constraintStart_toStartOf="@+id/textView94"
         app:layout_constraintTop_toBottomOf="@+id/textView95" />
 
     <TextView
         android:id="@+id/textView99"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/prevention_bullet1"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView98"
+        app:layout_constraintStart_toStartOf="@+id/textView95"
         app:layout_constraintTop_toBottomOf="@+id/textView98" />
 
     <!-- Incident reporting.. -->
     <TextView
         android:id="@+id/textView106"
-        android:layout_width="349dp"
-        android:layout_height="41dp"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/incident_report"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textView79"
+        app:layout_constraintStart_toStartOf="@+id/textView98"
         app:layout_constraintTop_toBottomOf="@+id/textView99" />
 
     <TextView
         android:id="@+id/textView107"
-        android:layout_width="320dp"
+        android:layout_width="345dp"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/poppins_light"
@@ -574,6 +576,159 @@
         app:layout_constraintStart_toStartOf="@+id/textView99"
         app:layout_constraintTop_toBottomOf="@+id/textView106" />
 
+    <!-- REPORTING AND INVESTIGATING COMPLAINTS -->
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_heading"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView78"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_p1"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step1"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView109"
+        app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="345dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_bullet1"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView107"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step2"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView110"
+        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="345dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step2_bullet1"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView111"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step2_bullet1_2"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView113"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="345dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step2_bullet2"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView113"
+        app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step3"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="345dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step3_bullet1"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView111"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="335dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_step3_bullet1_2"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView115"
+        app:layout_constraintTop_toBottomOf="@+id/textView117" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/investigating_complaints_note"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView109"
+        app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+    <!-- RESPONSIBILITIES page 6 -->
 
     <!--    USE <br/> TO CREATE A NEW LINE AND MERGE MULTIPLE LINE OF TEXT TO REDUCE THE AMOUNT OF TEXTVIEWS -->
     <!-- TO ADD A BULLET TO STRING-> \u2022  -->

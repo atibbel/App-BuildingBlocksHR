@@ -121,10 +121,10 @@ public class MainActivity_Custom extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-    public void demoButton(View view) {
-        Intent nextPage = new Intent(MainActivity_Custom.this, UserDemoActivity.class);
-        startActivity(nextPage);
-    }
+//
+//    public void demoButton(View view) {
+//        Intent nextPage = new Intent(MainActivity_Custom.this, LoginActivity.class);
+//        startActivity(nextPage);
+//    }
 
 }

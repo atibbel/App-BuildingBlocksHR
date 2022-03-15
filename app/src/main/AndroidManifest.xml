@@ -14,9 +14,7 @@
         <activity
             android:name=".BenefitsActivity_Plus"
             android:exported="false" />
-        <activity
-            android:name=".BenefitsActivity_Plus2"
-            android:exported="false" />
+
         <activity
             android:name=".BenefitsActivity_Custom"
             android:exported="false" />
@@ -45,8 +43,13 @@
             android:name=".MainActivity_Plus"
             android:exported="false" />
         <activity
-            android:name=".UserDemoActivity"
-            android:exported="false" />
+            android:name=".LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".VacationActivity"
             android:exported="false" />
@@ -57,17 +60,9 @@
             android:name=".PolicyActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity_Custom"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

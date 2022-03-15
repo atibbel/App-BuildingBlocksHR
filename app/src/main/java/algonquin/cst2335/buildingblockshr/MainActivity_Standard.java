@@ -36,7 +36,7 @@ public class MainActivity_Standard extends AppCompatActivity {
         Button policyButton = findViewById(R.id.policyButton);
         Button benefitsButton = findViewById(R.id.benefitsButton);
         Button vacationButton = findViewById(R.id.vacationButton);
-        Button demoButton = findViewById(R.id.demobutton) ;
+
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
@@ -115,7 +115,7 @@ public class MainActivity_Standard extends AppCompatActivity {
     }
 
 //    public void demoButton(View view) {
-//        Intent nextPage = new Intent(MainActivity_Standard.this, UserDemoActivity.class);
+//        Intent nextPage = new Intent(MainActivity_Standard.this, LoginActivity.class);
 //        startActivity(nextPage);
 //    }
 }
