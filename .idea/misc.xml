@@ -11,7 +11,7 @@
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_benefits_plus2.xml" value="0.278125" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_benefits_standard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_harassment_policy.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_health_and_safety.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_health_and_safety.xml" value="0.5" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_login2.xml" value="0.4479166666666667" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -26,12 +26,13 @@
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_privacy_policy.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_user_demo.xml" value="0.25" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_vacation.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_violence_policy.xml" value="0.11938510680774606" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_violence_policy.xml" value="0.1237410071942446" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/demo_activity.xml" value="0.2630208333333333" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/landing_page.xml" value="0.2630208333333333" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/mai_popout_header.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/main_popout_header.xml" value="0.38269927536231885" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/nav_activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/policy_sexual_harassment.xml" value="0.4479166666666667" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/hamburger_header.xml" value="0.8359375" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/main_activity_actions.xml" value="0.8359375" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/menu/main_toolbar.xml" value="0.36666666666666664" />

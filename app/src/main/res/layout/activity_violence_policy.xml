@@ -52,8 +52,8 @@
         app:layout_constraintStart_toEndOf="@id/textView13"
         app:layout_constraintTop_toTopOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.0" />
-<!-- Line to seperate text from heading -->
 
+<!-- Line to seperate text from heading -->
     <View
         android:id="@+id/primerdivisor"
         android:layout_width="fill_parent"
@@ -134,9 +134,6 @@
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
-
-    <!-- INTENT heading -->
-
     <TextView
         android:id="@+id/textView25"
         android:layout_width="345dp"
@@ -149,6 +146,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
+    <!-- INTENT heading -->
     <TextView
         android:id="@+id/textView34"
         android:layout_width="wrap_content"

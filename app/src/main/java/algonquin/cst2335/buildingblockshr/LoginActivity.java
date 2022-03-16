@@ -16,6 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText edittext_password;
     EditText edittext_email;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
                 boolean validate = validateLogin(email, password);
                 if(validate){
                     Intent nextPage = new Intent(LoginActivity.this, MainActivity_Custom.class);
+                    nextPage.putExtra("userName",edittext_email.getText().toString()); // used to get userinput for welcome screen
                     startActivity(nextPage);
                 }
             }
@@ -79,7 +81,4 @@ public class LoginActivity extends AppCompatActivity {
         }
     }//eof validateLogin
 
-
-
-
-}
+} //eof loginActivity

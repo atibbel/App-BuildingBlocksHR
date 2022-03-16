@@ -104,7 +104,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/dental"
         android:layout_width="264dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
@@ -115,14 +115,14 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/otherbenefits"
         android:layout_width="264dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
         android:text="3 Days Remaining"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/dental"
+        app:layout_constraintTop_toBottomOf="@+id/dental"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 

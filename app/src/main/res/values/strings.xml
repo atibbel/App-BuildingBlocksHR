@@ -151,6 +151,34 @@
         \n▪ Extortion; and/ or
         \n▪ Physical assault or threats of physical assault.</string>
     <string name="investigating_complaints_note">Note: Whether or not a formal complaint is filed, the company or a third party may be obligated to proceed with an investigation if it appears that applicable legislation and/or the policy has been violated.</string>
+    <string name="sexual_harassment_heading">Workplace Harassment Policy</string>
+    <string name="aoda_heading">Accessibility Standard for Customer Service AODA Policy </string>
+    <string name="health_safety_heading">Health and Safety Policy</string>
+    <string name="applicability_heading">Applicability</string>
+    <string name="health_intent_p1">The policy intent is to ensure that the company commitment to providing a healthy and safe work environment is communicated and understood by all employees.
+        \n\nThe company (the “Company”) considers health and safety a critical priority requiring the constant attention and involvement of both management and employees. The company requires that
+        all employees comply with all applicable health and safety regulations and insists that all employees respect and abide by spirit and intent of health and safety regulations.
+        \n\nA healthy and safe workplace benefits both the company and its employees.  Management and employees have a shared responsibility to maintain a healthy and safe workplace.  Management is
+        committed to promoting safe work practices and to taking all reasonable precautions to address workplace hazards.  Employees will accept responsibility for working in a safe manner and for
+        bringing potentially hazardous conditions or practices to the attention of management.
+        \n\nIt is the company’s policy to:
+        \n\n(a) Strive toward eliminating workplace injuries and illnesses.
+        \n(b) Have a fire safety and emergency plan in place.
+        \n(c) Comply with municipal, provincial and federal health and safety legislation.</string>
+
+    <string name="privacy_heading">Privacy and Personal Infromation and Electronic Documents Policy</string>
+    <string name="applicability_p1">These guidelines apply to all the company employees, including temporary employees.</string>
+    <string name="privacy_intent_p1">The company is committed to protecting the privacy of personal information of its clients, employees, independent contractors, funders and other stakeholders.  the company corporate policy on privacy is posted on the Company website at www.motionspecialties.com.
+        \n\nEmployees’ personal information remains confidential throughout their career as well as after their employment with the company ends. Employees’ information will not be collected used or disclosed except in accordance with the guidelines of federal and provincial privacy acts.  Information
+        about any employee will not be released without the employee’s authorization except where required by law.
+        \n\nThe company will only collect employees’ personal information where permission is provided or if there is a potential contravention of the law or breaches of agreements or other circumstances that permit us to legally collect this information under the laws of Canada.
+        \n\nThis policy is to ensure that the company is complying with the Personal Information Protection and Electronic Documents Act (PIPEDA) that outlines the protection for an employee in regards to the collection, use and disclosure of personal information </string>
+    <string name="aoda_p1">The Accessibility Standard for Customer Service is an Ontario regulation that applies to all people and organizations across all provinces where the company operates. "</string>
+    <string name="aoda_intent_p1">The purpose of this policy is to ensure that the company is committed to excellence in serving all clients including individuals with disabilities.</string>
+    <string name="regulation_heading">The Regulation</string>
+    <string name="aoda_regualtion_p1">Recognizing the history of discrimination against persons with disabilities in Ontario and Canada, the purpose of the Accessibility Standard for Customer Service is to benefit everyone by:
+        \n\n(a) Developing, implementing and enforcing accessibility standards in order to achieve accessibility for Ontarians with disabilities with respect to goods, services, facilities, accommodation, employment, buildings, structures and premises on or before January 1, 2012; and
+        \n\n(b) Providing for the involvement of persons with disabilities, of all the Governments and of representatives of industries and of various sectors of the economy in the development of the accessibility standards. </string>
 
 
 </resources>
