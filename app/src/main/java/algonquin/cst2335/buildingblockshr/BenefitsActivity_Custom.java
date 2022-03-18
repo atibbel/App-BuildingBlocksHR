@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -70,5 +71,24 @@ public class BenefitsActivity_Custom extends AppCompatActivity {
         });
 
 
+    }
+    public void medical(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Custom.this, MedicalActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void dental(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Custom.this, DentalActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void otherbenefits(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Custom.this,OtherBenefitsActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void perks(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Custom.this, PerksActivity.class);
+        startActivity(nextPage);
     }
 }

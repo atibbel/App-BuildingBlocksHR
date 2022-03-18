@@ -18,6 +18,7 @@
         android:layout_height="29dp"
         android:fontFamily="@font/poppins_light"
         android:text="@string/violence_policy_heading"
+        android:textAlignment="center"
         android:textColor="#47189C"
         android:textSize="20sp"
         android:textStyle="bold"

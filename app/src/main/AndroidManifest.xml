@@ -12,6 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildingBlocksHR">
         <activity
+            android:name=".VacationDaysRemainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleTimeOffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VacationPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtherBenefitsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DentalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalActivity"
+            android:exported="false" />
+        <activity
             android:name=".BenefitsActivity_Plus"
             android:exported="false" />
         <activity

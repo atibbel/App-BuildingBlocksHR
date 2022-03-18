@@ -126,11 +126,12 @@
         app:layout_constraintTop_toBottomOf="@+id/edittext_email" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="No account? Register here."
+        android:text="@string/register"
+        android:onClick="register"
         app:layout_constraintEnd_toEndOf="@+id/loginButton"
         app:layout_constraintStart_toStartOf="@+id/loginButton"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />

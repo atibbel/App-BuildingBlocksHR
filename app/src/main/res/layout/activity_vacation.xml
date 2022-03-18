@@ -76,7 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/vacation"
         android:layout_width="182dp"
         android:layout_height="37dp"
         android:ems="10"
@@ -93,36 +93,39 @@
         app:layout_constraintVertical_bias="0.129" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/policy"
         android:layout_width="94dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
         android:text="1 Policy "
+        android:onClick="policy"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/vacation"
+        app:layout_constraintTop_toBottomOf="@+id/vacation"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/dental"
+        android:id="@+id/timeoff"
         android:layout_width="264dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
         android:text="2 Schedule Time-off"
+        android:onClick="timeoff"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/policy"
+        app:layout_constraintTop_toBottomOf="@+id/policy"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/otherbenefits"
+        android:id="@+id/days_remaining"
         android:layout_width="264dp"
         android:layout_height="22dp"
         android:layout_marginTop="20dp"
         android:text="3 Days Remaining"
+        android:onClick="daysremaining"
         android:textColor="@color/lightblue"
-        app:layout_constraintStart_toStartOf="@+id/dental"
-        app:layout_constraintTop_toBottomOf="@+id/dental"
+        app:layout_constraintStart_toStartOf="@+id/timeoff"
+        app:layout_constraintTop_toBottomOf="@+id/timeoff"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
 

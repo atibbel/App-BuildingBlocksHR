@@ -75,23 +75,22 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
     <TextView
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="345dp"
-        android:layout_height="45dp"
-        android:ems="10"
+        android:id="@+id/policy_heading"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
         android:fontFamily="@font/poppins_light"
-        android:inputType="textPersonName"
         android:text="@string/policy"
         android:textColor="#4CAF50"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/slogan"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
 
     <TextView
         android:id="@+id/textView5"
@@ -102,7 +101,7 @@
         android:text="STANDARD COMPLIANCE"
         android:textColor="@color/purple_700"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/policy_heading"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -115,7 +114,7 @@
         android:textColor="@color/lightblue"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <TextView
         android:id="@+id/policy_harassment"
@@ -127,7 +126,7 @@
         android:textColor="@color/lightblue"
         app:layout_constraintStart_toStartOf="@+id/policy_violence"
         app:layout_constraintTop_toBottomOf="@+id/policy_violence"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <TextView
         android:id="@+id/policy_Aoda"
@@ -139,7 +138,7 @@
         android:textColor="@color/lightblue"
         app:layout_constraintStart_toStartOf="@+id/policy_harassment"
         app:layout_constraintTop_toBottomOf="@+id/policy_harassment"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <TextView
         android:id="@+id/policy_HealthSafety"
@@ -151,7 +150,7 @@
         android:textColor="@color/lightblue"
         app:layout_constraintStart_toStartOf="@+id/policy_Aoda"
         app:layout_constraintTop_toBottomOf="@+id/policy_Aoda"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <TextView
         android:id="@+id/policy_Privacy"
@@ -163,7 +162,9 @@
         android:textColor="@color/lightblue"
         app:layout_constraintStart_toStartOf="@+id/policy_HealthSafety"
         app:layout_constraintTop_toBottomOf="@+id/policy_HealthSafety"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

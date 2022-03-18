@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -67,7 +68,22 @@ public class VacationActivity extends AppCompatActivity {
             drawer.closeDrawer(GravityCompat.START);
             return false;
         });
+    }
 
+    public void daysremaining(View view) {
+        Intent nextPage = new Intent(VacationActivity.this, VacationDaysRemainingActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void timeoff(View view) {
+        Intent nextPage = new Intent(VacationActivity.this, ScheduleTimeOffActivity.class);
+        startActivity(nextPage);
 
     }
+
+    public void policy(View view) {
+        Intent nextPage = new Intent(VacationActivity.this, VacationPolicyActivity.class);
+        startActivity(nextPage);
+    }
+
 }
