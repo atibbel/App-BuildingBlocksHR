@@ -20,7 +20,7 @@
         android:textStyle="bold"
         />
 
-    <!-- removing this section for now. Trying to have the 'To:' section be automatic to client.
+    
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress" />
-        -->
+
 
     <TextView
         android:layout_width="match_parent"

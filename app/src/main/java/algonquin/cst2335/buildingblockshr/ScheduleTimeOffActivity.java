@@ -20,7 +20,7 @@ public class ScheduleTimeOffActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_time_off);
-        //EditTextTo = findViewById(R.id.edit_text_to);
+        EditTextTo = findViewById(R.id.edit_text_to);
         EditTextSubject = findViewById(R.id.edit_text_subject);
         EditTextMessage = findViewById(R.id.edit_text_message);
 
@@ -41,9 +41,9 @@ public class ScheduleTimeOffActivity extends AppCompatActivity {
         String message = EditTextMessage.getText().toString();
 
         Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setData(Uri.parse("mailto:default@recipient.com"));
-        //intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"recipient@example.com"});
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Time off request: " + subject);
+        //intent.setData(Uri.parse("mailto:default@recipient.com"));
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"recipient@example.com"});
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
         intent.putExtra(Intent.EXTRA_TEXT, message);
         intent.setType("message/rfc822");
         try {
