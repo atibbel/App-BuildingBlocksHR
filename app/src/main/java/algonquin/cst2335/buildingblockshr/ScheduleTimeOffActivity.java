@@ -20,7 +20,7 @@ public class ScheduleTimeOffActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_time_off);
-        EditTextTo = findViewById(R.id.edit_text_to);
+          EditTextTo = findViewById(R.id.edit_text_to);
         EditTextSubject = findViewById(R.id.edit_text_subject);
         EditTextMessage = findViewById(R.id.edit_text_message);
 

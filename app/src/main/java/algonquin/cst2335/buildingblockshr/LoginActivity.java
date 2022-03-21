@@ -54,6 +54,7 @@ public class LoginActivity extends AppCompatActivity {
                     Intent nextPage = new Intent(LoginActivity.this, MainActivity_Custom.class);
                     nextPage.putExtra("userName",edittext_email.getText().toString()); // used to get userinput for welcome screen
                     startActivity(nextPage);
+
                 }
             }
         });

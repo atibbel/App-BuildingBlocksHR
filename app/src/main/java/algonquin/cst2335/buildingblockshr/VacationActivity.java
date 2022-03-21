@@ -73,6 +73,7 @@ public class VacationActivity extends AppCompatActivity {
     public void daysremaining(View view) {
         Intent nextPage = new Intent(VacationActivity.this, VacationDaysRemainingActivity.class);
         startActivity(nextPage);
+
     }
 
     public void timeoff(View view) {

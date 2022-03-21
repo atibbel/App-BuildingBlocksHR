@@ -182,5 +182,48 @@
         \n\n(a) Developing, implementing and enforcing accessibility standards in order to achieve accessibility for Ontarians with disabilities with respect to goods, services, facilities, accommodation, employment, buildings, structures and premises on or before January 1, 2012; and
         \n\n(b) Providing for the involvement of persons with disabilities, of all the Governments and of representatives of industries and of various sectors of the economy in the development of the accessibility standards. </string>
 
+    <string name="responsibilities_heading">Responsibilities</string>
+    <string name="responsibilities_p1">All the company employees have a responsibility not to harass any other employee, contract employee, consultant, supplier, customer or visitor. Each employee in a management capacity must not allow or condone behaviour contrary to this policy and is
+        responsible for ensuring that all employees under his or her supervision are aware of this policy. Any employee who fails to comply with the provisions of this policy will be subject to appropriate disciplinary measures, which may include termination.</string>
+    <string name="employer_procedure_heading">Employers – Procedure for Handling Complaints</string>
+    <string name="formal_investigation_heading">FORMAL INVESTIGATION PROCEDURE</string>
+    <string name="investigation_p1">1. A designated investigator will undertake an investigation immediately and all necessary steps will be taken to resolve the problem.
+        \n\n2. Individual interviews with the complainant, the respondent and any witnesses will be held. Neither the name of the employee lodging the complaint nor the circumstances related to the complaint will be revealed to any other party, unless such disclosure is necessary for the purpose of investigating or taking disciplinary action with respect to the complaint.
+        \n\n3. If the investigation reveals evidence to support the complaint of workplace violence, appropriate measures will be taken. These may include disciplinary action up to and including termination.
+        \n\n4. A designated investigator will summarize their findings and reach a decision on recommended action and may share these findings with additional senior management. Written results of the investigation and recommended resolution of the situation will then be presented to the two parties. If the respondent is disciplined, the incident will be documented and filed in his/her employment file in accordance with the procedures.
+        \n\n5. If the investigation fails to find evidence to support the complaint, there will be no documentation file placed in the parties’ personal files.
+        \n\n6. Employees who make legitimate, complaints of workplace violence in good faith will not have their employment affected in any adverse manner.
+        \n\n7. Where the complaint is determined to be abusive, frivolous, vindictive, or made in bad faith, the company will take appropriate action towards the complainant, which may include termination.
+        \n\n8. Reprisal against an individual who has filed a complaint in good faith or who has been named as a witness or respondent in a complaint may result in disciplinary action being taken by the company. This discipline may occur whether or not the complaint was substantiated and whether or not the complaint was resolved through any of the procedures set out in this policy</string>
+    <string name="investigation_p2">\nAll information regarding a specific incident will be kept CONFIDENTIAL within the necessary boundaries of the fact-finding process.</string>
+    <string name="retaliation_heading">Retaliation:</string>
+    <string name="retaliation_p1">We are committed to maintaining an environment free from retaliation. Retaliation against employees for reporting such behaviour or participating in an investigation will not be tolerated by the company, and will be grounds for further disciplinary actions, up to and including termination.</string>
+    <string name="reprisals_heading">Reprisals:</string>
+    <string name="reprisals_p1">No employee shall be demoted, dismissed, disciplined or denied a promotion, advancement or employment opportunity or suffer a change in job responsibility because he/she has reported violence against another employee, has lodged a complaint in accordance with this policy, or has supported another employee in his/her complaint.</string>
+    <string name="procedure_heading">Procedure if a Complaint is made Against an Employee:</string>
+    <string name="procedure_p1">If you are accused of any type of violence, an employee must immediately inform your manager. Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations. An employee will be expected to answer questions completely and honestly. An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation. Retaliation will lead to disciplinary action and/ or termination of employment.</string>
+    <string name="end">*This policy is subject to be amendment and/or revocation at the company’s sole discretion, without prior notice to employees.</string>
+    <string name="time_off_click_here">If you would like to use your vacation day please click <font color='#01C6DB'>here.</font></string>
+    <string name="prescription">• 80%</string>
+    <string name="deductible">Deductible</string>
+    <string name="deductible_1">• None</string>
+    <string name="hospital_heading">Hospital</string>
+    <string name="hospital_1">• 100% Semi-private room</string>
+    <string name="paramedical_heading">Paramedical Services</string>
+    <string name="paramedicl_1">• 80% reimbursement on maximum with $500.00 annually maximum per person and service.  Covered services include:</string>
+    <string name="paramedical_2">\u2022 Chiropractor
+        \n\u2022 Osteopath
+        \n\u2022 Chiropodist
+        \n\u2022 Podiatrist
+        \n\u2022 Naturopath
+        \n\u2022 Physiotherapist - $1,000 benefit
+        \n\u2022 Psychologist or Social Worker
+        \n\u2022 Speech Therapist
+        \n\u2022 Occupational Therapist
+        \nu2022 Acupuncturist
+        \n\u2022 Dietitian
+        \n\u2022 Audiologist
+        \n\u2022 Massage Therapist "</string>
+
 
 </resources>
