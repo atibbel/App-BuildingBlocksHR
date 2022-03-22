@@ -55,12 +55,11 @@ public class LoginActivity extends AppCompatActivity {
                     nextPage.putExtra("userName",edittext_email.getText().toString()); // used to get userinput for welcome screen
                     startActivity(nextPage);
 
-                }
-            }
-        });
-
-
+                } // eof if
+            } // eof public void onClick
+        }); // eof loginButton on click
     } //eof onCreate
+
     // method to validate the users login
     private boolean validateLogin(String email, String password){
         if(email.length()==0){
@@ -73,7 +72,7 @@ public class LoginActivity extends AppCompatActivity {
             edittext_email.setError("Email not valid");
             return false;
         }
-        else if(password.length()<=8){
+        else if(password.length()<=7){
             edittext_password.requestFocus();
             edittext_password.setError("Password must be at least 8 characters long.");
             return false;

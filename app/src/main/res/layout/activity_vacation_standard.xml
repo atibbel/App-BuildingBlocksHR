@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,22 +9,22 @@
     tools:context=".MainActivity_Custom">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/toolbar"
         android:background="?attr/colorPrimary"
         tools:ignore="MissingConstraints" />
 
     <androidx.drawerlayout.widget.DrawerLayout
 
+        android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/drawer_layout" >
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:background="@drawable/background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/background"
             android:orientation="vertical">
 
             <TextView
@@ -35,12 +34,12 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="HR in your Hands"
+                android:text="HR in you Hands"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintHorizontal_bias="0.103"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toTopOf="@+id/imageView"
                 app:layout_constraintVertical_bias="0.0" />
@@ -76,72 +75,70 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <TextView
-                android:id="@+id/textView2"
-                android:layout_width="258dp"
-                android:layout_height="33dp"
-                android:layout_marginTop="5dp"
+                android:id="@+id/vacation"
+                android:layout_width="182dp"
+                android:layout_height="37dp"
+                android:ems="10"
                 android:fontFamily="@font/poppins_light"
-                android:text="           Welcome back username!"
-                android:textColor="#03A9F4"
+                android:text="@string/vacation"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.424"
+                app:layout_constraintHorizontal_bias="0.139"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/slogan"
-                app:layout_constraintVertical_bias="0.054" />
+                app:layout_constraintVertical_bias="0.129" />
 
-            <Button
-                android:id="@+id/policyButton"
-                android:layout_width="281dp"
-                android:layout_height="42dp"
-                android:layout_marginTop="35dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="Policies"
-                android:textStyle="bold"
-                android:backgroundTint="#2196F3"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            <TextView
+                android:id="@+id/policy"
+                android:layout_width="94dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:onClick="policy"
+                android:text="1 Policy "
+                android:textColor="@color/lightblue"
+                app:layout_constraintStart_toStartOf="@+id/vacation"
+                app:layout_constraintTop_toBottomOf="@+id/vacation"
+                tools:ignore="MissingConstraints" />
 
-            <Button
-                android:id="@+id/benefitsButton"
-                android:layout_width="281dp"
-                android:layout_height="42dp"
-                android:layout_marginTop="35dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/benefits"
-                android:textStyle="bold"
-                android:backgroundTint="#E91E63"
-                app:layout_constraintEnd_toEndOf="@+id/policyButton"
-                app:layout_constraintStart_toStartOf="@+id/policyButton"
-                app:layout_constraintTop_toBottomOf="@+id/policyButton" />
+            <TextView
+                android:id="@+id/timeoff"
+                android:layout_width="264dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:onClick="timeoff"
+                android:text="2 Schedule Time-off"
+                android:textColor="@color/lightblue"
+                app:layout_constraintStart_toStartOf="@+id/policy"
+                app:layout_constraintTop_toBottomOf="@+id/policy"
+                tools:ignore="MissingConstraints" />
 
-            <Button
-                android:id="@+id/vacationButton"
-                android:layout_width="281dp"
-                android:layout_height="42dp"
-                android:layout_marginTop="35dp"
-                android:backgroundTint="#4CAF50"
-                android:fontFamily="@font/poppins_light"
-                android:text="Vacation"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/benefitsButton"
-                app:layout_constraintStart_toStartOf="@+id/benefitsButton"
-                app:layout_constraintTop_toBottomOf="@+id/benefitsButton" />
+            <TextView
+                android:id="@+id/days_remaining"
+                android:layout_width="264dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="20dp"
+                android:onClick="daysremaining"
+                android:text="3 Days Remaining"
+                android:textColor="@color/lightblue"
+                app:layout_constraintStart_toStartOf="@+id/timeoff"
+                app:layout_constraintTop_toBottomOf="@+id/timeoff"
+                tools:ignore="DuplicateIds,MissingConstraints" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- Whats on the popup menu(hamburger button) -->
         <com.google.android.material.navigation.NavigationView
+            android:id="@+id/popout_menu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/popout_menu"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_standard_plan"/>
+            app:menu="@menu/popout_standard_plan" />
 
     </androidx.drawerlayout.widget.DrawerLayout>
 

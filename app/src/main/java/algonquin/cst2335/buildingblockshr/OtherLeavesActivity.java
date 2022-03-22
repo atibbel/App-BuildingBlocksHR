@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
@@ -74,4 +75,21 @@ public class OtherLeavesActivity extends AppCompatActivity {
             return false;
         });
     }
+
+    public void sick_leave(View view) {
+        Intent nextpage = new Intent(OtherLeavesActivity.this, SickLeaveActivity.class);
+        startActivity(nextpage);
+    }
+
+    public void gov_leave(View view) {
+        Intent nextpage = new Intent(OtherLeavesActivity.this, GovLeaveActivity.class);
+        startActivity(nextpage);
+    }
+
+    public void others(View view) {
+        Intent nextpage = new Intent(OtherLeavesActivity.this, OthersActivity.class);
+        startActivity(nextpage);
+    }
+
+
 }

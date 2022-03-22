@@ -11,13 +11,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.Button;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class BenefitsActivity_Plus extends AppCompatActivity {
+public class PolicyActivity_Plus extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         MenuInflater inflater = getMenuInflater();
+        // need to create new action menu per package
         inflater.inflate(R.menu.main_activity_actions, menu); // inflate the xml object(menu) into the tool bar -- R.directory.file , object to inflate into
         return true;
         //return super.onCreateOptionsMenu(menu);
@@ -26,7 +29,11 @@ public class BenefitsActivity_Plus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_benefits_plus);
+        setContentView(R.layout.activity_policy_plus);
+
+        Button policyButton = findViewById(R.id.policyButton);
+        Button benefitsButton = findViewById(R.id.benefitsButton);
+        Button vacationButton = findViewById(R.id.vacationButton);
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
@@ -40,82 +47,78 @@ public class BenefitsActivity_Plus extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener((item)->{
             switch(item.getItemId()) {
                 //POLICIES
-                case R.id.popout_policies:
-                    Intent nextPage = new Intent(BenefitsActivity_Plus.this, PolicyActivity_Plus.class);
-                    startActivity(nextPage);
-                    break;
 
                 case R.id.popout_violence:
-                    Intent nextPage_1 = new Intent(BenefitsActivity_Plus.this, ViolencePolicyActivity.class);
+                    Intent nextPage_1 = new Intent(PolicyActivity_Plus.this, ViolencePolicyActivity.class);
                     startActivity(nextPage_1);
                     break;
 
                 case R.id.popout_harassment:
-                    Intent nextPage_2 = new Intent(BenefitsActivity_Plus.this, HarassmentPolicyActivity.class);
+                    Intent nextPage_2 = new Intent(PolicyActivity_Plus.this, HarassmentPolicyActivity.class);
                     startActivity(nextPage_2);
                     break;
 
                 case R.id.popout_aoda:
-                    Intent nextPage_3 = new Intent(BenefitsActivity_Plus.this, AodaPolicyActivity.class);
+                    Intent nextPage_3 = new Intent(PolicyActivity_Plus.this, AodaPolicyActivity.class);
                     startActivity(nextPage_3);
                     break;
 
                 case R.id.popout_health_safety:
-                    Intent nextPage_4 = new Intent(BenefitsActivity_Plus.this, HealthAndSafetyActivity.class);
+                    Intent nextPage_4 = new Intent(PolicyActivity_Plus.this, HealthAndSafetyActivity.class);
                     startActivity(nextPage_4);
                     break;
 
                 case R.id.popout_privacy:
-                    Intent nextPage_5 = new Intent(BenefitsActivity_Plus.this, PrivacyPolicyActivity.class);
+                    Intent nextPage_5 = new Intent(PolicyActivity_Plus.this, PrivacyPolicyActivity.class);
                     startActivity(nextPage_5);
                     break;
 
                 //BENEFITS
                 case R.id.popout_benefits:
-                    Intent nextPage1 = new Intent(BenefitsActivity_Plus.this, BenefitsActivity_Plus.class);
+                    Intent nextPage1 = new Intent(PolicyActivity_Plus.this, BenefitsActivity_Plus.class);
                     startActivity(nextPage1);
                     break;
 
                 case R.id.popout_medical:
-                    Intent nextPage1_1 = new Intent(BenefitsActivity_Plus.this, MedicalActivity.class);
+                    Intent nextPage1_1 = new Intent(PolicyActivity_Plus.this, MedicalActivity.class);
                     startActivity(nextPage1_1);
                     break;
 
                 case R.id.popout_dental:
-                    Intent nextPage1_2 = new Intent(BenefitsActivity_Plus.this, DentalActivity.class);
+                    Intent nextPage1_2 = new Intent(PolicyActivity_Plus.this, DentalActivity.class);
                     startActivity(nextPage1_2);
                     break;
 
                 case R.id.popout_other_benefits:
-                    Intent nextPage1_3 = new Intent(BenefitsActivity_Plus.this, OtherBenefitsActivity.class);
+                    Intent nextPage1_3 = new Intent(PolicyActivity_Plus.this, OtherBenefitsActivity.class);
                     startActivity(nextPage1_3);
                     break;
 
 
                 //VACATION
-                case R.id.popout_vacation:
-                    Intent nextPage2 = new Intent(BenefitsActivity_Plus.this, VacationActivity_Plus.class);
-                    startActivity(nextPage2);
-                    break;
+//                case R.id.popout_vacation:
+//                    Intent nextPage2 = new Intent(PolicyActivity_Plus.this, VacationActivity_Plus.class);
+//                    startActivity(nextPage2);
+//                    break;
 
                 case R.id.popout_vacation_policy:
-                    Intent nextPage2_1 = new Intent(BenefitsActivity_Plus.this, VacationPolicyActivity.class);
+                    Intent nextPage2_1 = new Intent(PolicyActivity_Plus.this, VacationPolicyActivity.class);
                     startActivity(nextPage2_1);
                     break;
 
                 case R.id.popout_timeoff:
-                    Intent nextPage2_2 = new Intent(BenefitsActivity_Plus.this, ScheduleTimeOffActivity.class);
+                    Intent nextPage2_2 = new Intent(PolicyActivity_Plus.this, ScheduleTimeOffActivity.class);
                     startActivity(nextPage2_2);
                     break;
 
                 case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(BenefitsActivity_Plus.this, VacationDaysRemainingActivity.class);
+                    Intent nextPage2_3 = new Intent(PolicyActivity_Plus.this, VacationDaysRemainingActivity.class);
                     startActivity(nextPage2_3);
                     break;
 
 
                 case R.id.home:
-                    Intent nextPage4 = new Intent(BenefitsActivity_Plus.this, MainActivity_Custom.class);
+                    Intent nextPage4 = new Intent(PolicyActivity_Plus.this, MainActivity_Plus.class);
                     startActivity(nextPage4);
             }
 
@@ -127,19 +130,29 @@ public class BenefitsActivity_Plus extends AppCompatActivity {
 
     }
     // xml onClick method
-    public void medical(View view) {
-        Intent nextPage = new Intent(BenefitsActivity_Plus.this, MedicalActivity.class);
+    public void policy_violence(View view) {
+        Intent nextPage = new Intent(PolicyActivity_Plus.this, ViolencePolicyActivity.class);
         startActivity(nextPage);
     }
 
-    public void dental(View view) {
-        Intent nextPage = new Intent(BenefitsActivity_Plus.this, DentalActivity.class);
+    public void policy_harassment(View view) {
+        Intent nextPage = new Intent(PolicyActivity_Plus.this, HarassmentPolicyActivity.class);
         startActivity(nextPage);
     }
 
-    public void otherbenefits(View view) {
-        Intent nextPage = new Intent(BenefitsActivity_Plus.this,OtherBenefitsActivity.class);
+    public void policy_Aoda(View view) {
+        Intent nextPage = new Intent(PolicyActivity_Plus.this, AodaPolicyActivity.class);
         startActivity(nextPage);
     }
 
-} // eof BenefitsActivity class
+    public void policy_HealthSafety(View view) {
+        Intent nextPage = new Intent(PolicyActivity_Plus.this, HealthAndSafetyActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void policyPrivacy(View view) {
+        Intent nextPage = new Intent(PolicyActivity_Plus.this, PrivacyPolicyActivity.class);
+        startActivity(nextPage);
+    }
+
+}

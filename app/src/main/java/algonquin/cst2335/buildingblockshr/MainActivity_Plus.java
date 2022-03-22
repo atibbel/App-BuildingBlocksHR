@@ -49,28 +49,81 @@ public class MainActivity_Plus extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.popout_menu); // popout menu options
         navigationView.setNavigationItemSelectedListener((item)->{
             switch(item.getItemId()) {
+                //POLICIES
                 case R.id.popout_policies:
-                    Intent nextPage = new Intent(MainActivity_Plus.this, PolicyActivity.class);
+                    Intent nextPage = new Intent(MainActivity_Plus.this, PolicyActivity_Plus.class);
                     startActivity(nextPage);
                     break;
+                case R.id.popout_violence:
+                    Intent nextPage_1 = new Intent(MainActivity_Plus.this, ViolencePolicyActivity.class);
+                    startActivity(nextPage_1);
+                    break;
 
+                case R.id.popout_harassment:
+                    Intent nextPage_2 = new Intent(MainActivity_Plus.this, HarassmentPolicyActivity.class);
+                    startActivity(nextPage_2);
+                    break;
+
+                case R.id.popout_aoda:
+                    Intent nextPage_3 = new Intent(MainActivity_Plus.this, AodaPolicyActivity.class);
+                    startActivity(nextPage_3);
+                    break;
+
+                case R.id.popout_health_safety:
+                    Intent nextPage_4 = new Intent(MainActivity_Plus.this, HealthAndSafetyActivity.class);
+                    startActivity(nextPage_4);
+                    break;
+
+                case R.id.popout_privacy:
+                    Intent nextPage_5 = new Intent(MainActivity_Plus.this, PrivacyPolicyActivity.class);
+                    startActivity(nextPage_5);
+                    break;
+
+                //BENEFITS
                 case R.id.popout_benefits:
                     Intent nextPage1 = new Intent(MainActivity_Plus.this, BenefitsActivity_Plus.class);
                     startActivity(nextPage1);
                     break;
 
+                case R.id.popout_medical:
+                    Intent nextPage1_1 = new Intent(MainActivity_Plus.this, MedicalActivity.class);
+                    startActivity(nextPage1_1);
+                    break;
+
+                case R.id.popout_dental:
+                    Intent nextPage1_2 = new Intent(MainActivity_Plus.this, DentalActivity.class);
+                    startActivity(nextPage1_2);
+                    break;
+
+                case R.id.popout_other_benefits:
+                    Intent nextPage1_3 = new Intent(MainActivity_Plus.this, OtherBenefitsActivity.class);
+                    startActivity(nextPage1_3);
+                    break;
+
+                //VACATION
                 case R.id.popout_vacation:
-                    Intent nextPage2 = new Intent(MainActivity_Plus.this, VacationActivity.class);
+                    Intent nextPage2 = new Intent(MainActivity_Plus.this, VacationActivity_Plus.class);
                     startActivity(nextPage2);
                     break;
 
-                case R.id.popout_other_leaves:
-                    Intent nextPage3 = new Intent(MainActivity_Plus.this, OtherLeavesActivity.class);
-                    startActivity(nextPage3);
+                case R.id.popout_vacation_policy:
+                    Intent nextPage2_1 = new Intent(MainActivity_Plus.this, VacationPolicyActivity.class);
+                    startActivity(nextPage2_1);
                     break;
+
+                case R.id.popout_timeoff:
+                    Intent nextPage2_2 = new Intent(MainActivity_Plus.this, ScheduleTimeOffActivity.class);
+                    startActivity(nextPage2_2);
+                    break;
+
+                case R.id.popout_remaining_days:
+                    Intent nextPage2_3 = new Intent(MainActivity_Plus.this, VacationDaysRemainingActivity.class);
+                    startActivity(nextPage2_3);
+                    break;
+
                 case R.id.home:
-                    Intent nextPage4 = new Intent(MainActivity_Plus.this, MainActivity_Plus.class);
-                    startActivity(nextPage4);
+                    Intent nextPage3 = new Intent(MainActivity_Plus.this, MainActivity_Plus.class);
+                    startActivity(nextPage3);
             }
 
             onOptionsItemSelected(item);
@@ -79,7 +132,7 @@ public class MainActivity_Plus extends AppCompatActivity {
         });
 
         policyButton.setOnClickListener( clk-> {
-            Intent nextPage = new Intent(MainActivity_Plus.this, PolicyActivity.class);
+            Intent nextPage = new Intent(MainActivity_Plus.this, PolicyActivity_Plus.class);
             startActivity(nextPage);
             Toast.makeText(MainActivity_Plus.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
@@ -89,7 +142,7 @@ public class MainActivity_Plus extends AppCompatActivity {
             Toast.makeText(MainActivity_Plus.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
         vacationButton.setOnClickListener( clk-> {
-            Intent nextPage = new Intent(MainActivity_Plus.this, VacationActivity.class);
+            Intent nextPage = new Intent(MainActivity_Plus.this, VacationActivity_Plus.class);
             startActivity(nextPage);
             Toast.makeText(MainActivity_Plus.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });

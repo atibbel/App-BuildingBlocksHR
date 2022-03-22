@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,22 +9,22 @@
     tools:context=".MainActivity_Custom">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/toolbar"
         android:background="?attr/colorPrimary"
         tools:ignore="MissingConstraints" />
 
     <androidx.drawerlayout.widget.DrawerLayout
 
+        android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/drawer_layout" >
+        android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:background="@drawable/background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/background"
             android:orientation="vertical">
 
             <TextView
@@ -47,8 +46,8 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="56dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +56,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.046"
-                app:srcCompat="@drawable/bbhr_icon" />
+                app:srcCompat="@drawable/bbhr_logo" />
 
             <TextView
                 android:id="@+id/slogan"
@@ -99,12 +98,13 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="1 Sick Leave "
                 android:textColor="@color/lightblue"
+                android:onClick="sick_leave"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/dental"
+                android:id="@+id/gov_leave"
                 android:layout_width="264dp"
                 android:layout_height="22dp"
                 android:layout_marginStart="25dp"
@@ -112,12 +112,13 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="2 Government Leave"
                 android:textColor="@color/lightblue"
+                android:onClick="gov_leave"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8"
                 tools:ignore="MissingConstraints" />
 
             <TextView
-                android:id="@+id/otherbenefits"
+                android:id="@+id/others"
                 android:layout_width="264dp"
                 android:layout_height="22dp"
                 android:layout_marginStart="25dp"
@@ -125,20 +126,21 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="3 Others"
                 android:textColor="@color/lightblue"
+                android:onClick="others"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/dental"
+                app:layout_constraintTop_toBottomOf="@+id/gov_leave"
                 tools:ignore="DuplicateIds,MissingConstraints" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- Whats on the popup menu(hamburger button) -->
         <com.google.android.material.navigation.NavigationView
+            android:id="@+id/popout_menu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/popout_menu"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_custom_plan"/>
+            app:menu="@menu/popout_custom_plan" />
 
     </androidx.drawerlayout.widget.DrawerLayout>
 

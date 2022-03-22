@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -31,7 +32,6 @@ public class BenefitsActivity_Standard extends AppCompatActivity {
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called
 
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, myToolbar, R.string.open, R.string.close); // create string open and close
         drawer.addDrawerListener(toggle); // listens to when it opens and closes
@@ -40,20 +40,74 @@ public class BenefitsActivity_Standard extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.popout_menu); // popout menu options
         navigationView.setNavigationItemSelectedListener((item)->{
             switch(item.getItemId()) {
+                //POLICIES
                 case R.id.popout_policies:
-                    Intent nextPage = new Intent(BenefitsActivity_Standard.this, PolicyActivity.class);
+                    Intent nextPage = new Intent(BenefitsActivity_Standard.this, PolicyActivity_Standard.class);
                     startActivity(nextPage);
                     break;
 
+                case R.id.popout_violence:
+                    Intent nextPage_1 = new Intent(BenefitsActivity_Standard.this, ViolencePolicyActivity.class);
+                    startActivity(nextPage_1);
+                    break;
+
+                case R.id.popout_harassment:
+                    Intent nextPage_2 = new Intent(BenefitsActivity_Standard.this, HarassmentPolicyActivity.class);
+                    startActivity(nextPage_2);
+                    break;
+
+                case R.id.popout_aoda:
+                    Intent nextPage_3 = new Intent(BenefitsActivity_Standard.this, AodaPolicyActivity.class);
+                    startActivity(nextPage_3);
+                    break;
+
+                case R.id.popout_health_safety:
+                    Intent nextPage_4 = new Intent(BenefitsActivity_Standard.this, HealthAndSafetyActivity.class);
+                    startActivity(nextPage_4);
+                    break;
+
+                case R.id.popout_privacy:
+                    Intent nextPage_5 = new Intent(BenefitsActivity_Standard.this, PrivacyPolicyActivity.class);
+                    startActivity(nextPage_5);
+                    break;
+
+                //BENEFITS
                 case R.id.popout_benefits:
                     Intent nextPage1 = new Intent(BenefitsActivity_Standard.this, BenefitsActivity_Standard.class);
                     startActivity(nextPage1);
                     break;
 
+                case R.id.popout_medical:
+                    Intent nextPage1_1 = new Intent(BenefitsActivity_Standard.this, MedicalActivity.class);
+                    startActivity(nextPage1_1);
+                    break;
+
+                case R.id.popout_dental:
+                    Intent nextPage1_2 = new Intent(BenefitsActivity_Standard.this, DentalActivity.class);
+                    startActivity(nextPage1_2);
+                    break;
+
+                //VACATION
                 case R.id.popout_vacation:
-                    Intent nextPage2 = new Intent(BenefitsActivity_Standard.this, VacationActivity.class);
+                    Intent nextPage2 = new Intent(BenefitsActivity_Standard.this, VacationActivity_Standard.class);
                     startActivity(nextPage2);
                     break;
+
+                case R.id.popout_vacation_policy:
+                    Intent nextPage2_1 = new Intent(BenefitsActivity_Standard.this, VacationPolicyActivity.class);
+                    startActivity(nextPage2_1);
+                    break;
+
+                case R.id.popout_timeoff:
+                    Intent nextPage2_2 = new Intent(BenefitsActivity_Standard.this, ScheduleTimeOffActivity.class);
+                    startActivity(nextPage2_2);
+                    break;
+
+                case R.id.popout_remaining_days:
+                    Intent nextPage2_3 = new Intent(BenefitsActivity_Standard.this, VacationDaysRemainingActivity.class);
+                    startActivity(nextPage2_3);
+                    break;
+
 
                 case R.id.home:
                     Intent nextPage4 = new Intent(BenefitsActivity_Standard.this, MainActivity_Standard.class);
@@ -64,5 +118,18 @@ public class BenefitsActivity_Standard extends AppCompatActivity {
             drawer.closeDrawer(GravityCompat.START);
             return false;
         });
+
+
     }
+    // xml onClick method
+    public void medical(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Standard.this, MedicalActivity.class);
+        startActivity(nextPage);
+    }
+
+    public void dental(View view) {
+        Intent nextPage = new Intent(BenefitsActivity_Standard.this, DentalActivity.class);
+        startActivity(nextPage);
+    }
+
 }

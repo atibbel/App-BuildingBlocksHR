@@ -2,6 +2,7 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item
         android:id="@+id/popout_logo"
         android:fontFamily="@font/poppins_light"
@@ -10,6 +11,7 @@
         android:textStyle="bold"
         android:title="COMPANY LOGO ON THE SITE"
         app:showAsAction="always" />
+
     <item
         android:id="@+id/home"
         android:fontFamily="@font/poppins_light"
@@ -28,16 +30,26 @@
         android:title="STANDARD COMPLIANCE POLICIES"
         app:showAsAction="always" />
 
-    <item android:title="     1 Violence"
-        app:showAsAction="always"/>
-    <item android:title="     2 Workplace and Sexual Harassment"
-        app:showAsAction="always"/>
-    <item android:title="     3 AODA"
-        app:showAsAction="always"/>
-    <item android:title="     4 Health and Safety"
-        app:showAsAction="always"/>
-    <item android:title="     5 Privacy and Personal informantion"
-        app:showAsAction="always"/>
+    <item
+        android:id="@+id/popout_violence"
+        android:title="     1 Violence"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_harassment"
+        android:title="     2 Workplace and Sexual Harassment"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_aoda"
+        android:title="     3 AODA"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_health_safety"
+        android:title="     4 Health and Safety"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_privacy"
+        android:title="     5 Privacy and Personal Information"
+        app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/popout_benefits"
@@ -48,12 +60,20 @@
         android:title="BENEFITS"
         app:showAsAction="always"/>
 
-    <item android:title="     1. Medical"
-        app:showAsAction="always"/>
-    <item android:title="     2. Dental"
-        app:showAsAction="always"/>
-    <item android:title="     3. Other Benefits(i.e. LTD)"
-        app:showAsAction="always"/>
+    <item
+        android:id="@+id/popout_medical"
+        android:title="     1. Medical"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_dental"
+        android:title="     2. Dental"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_other_benefits"
+        android:title="     3. Other Benefits(i.e. LTD)"
+        app:showAsAction="ifRoom"/>
+
+
     <item
         android:id="@+id/popout_vacation"
         android:fontFamily="@font/poppins_light"
@@ -63,13 +83,20 @@
         android:title="VACATION"
         app:showAsAction="always" />
 
-    <item android:title="     1. Policy"
-        app:showAsAction="always"/>
-    <item android:title="     2. Schedule time off"
-        app:showAsAction="always"/>
-    <item android:title="     3. Days Remaining"
-        app:showAsAction="always"/>
+    <item
+        android:id="@+id/popout_vacation_policy"
+        android:title="     1. Policy"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_timeoff"
+        android:title="     2. Schedule time off"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/popout_remaining_days"
+        android:title="     3. Days Remaining"
+        app:showAsAction="ifRoom"/>
+
+
+
 
 </menu>
-    <!-- icons downlaoded from ... -->
-    <!-- <a target="_blank" href="https://icons8.com/icon/bpAPjyNopdSz/privacy-policy">Privacy Policy</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->

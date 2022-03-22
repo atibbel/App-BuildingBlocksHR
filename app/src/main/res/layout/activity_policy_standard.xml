@@ -74,58 +74,94 @@
                 app:layout_constraintStart_toStartOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
             <TextView
-                android:id="@+id/vacation"
-                android:layout_width="182dp"
-                android:layout_height="37dp"
-                android:ems="10"
+                android:id="@+id/policy_heading"
+                android:layout_width="190dp"
+                android:layout_height="30dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="@string/vacation"
+                android:text="@string/policy"
                 android:textColor="#4CAF50"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.139"
+                app:layout_constraintHorizontal_bias="0.108"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/slogan"
-                app:layout_constraintVertical_bias="0.129" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.282" />
 
             <TextView
-                android:id="@+id/policy"
+                android:id="@+id/textView5"
+                android:layout_width="237dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:text="STANDARD COMPLIANCE"
+                android:textColor="@color/purple_700"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/policy_heading"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/policy_violence"
                 android:layout_width="94dp"
                 android:layout_height="22dp"
-                android:layout_marginTop="20dp"
-                android:onClick="policy"
-                android:text="1 Policy "
+                android:layout_marginTop="10dp"
+                android:onClick="policy_violence"
+                android:text="1 Violence"
                 android:textColor="@color/lightblue"
-                app:layout_constraintStart_toStartOf="@+id/vacation"
-                app:layout_constraintTop_toBottomOf="@+id/vacation"
-                tools:ignore="MissingConstraints" />
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                tools:ignore="MissingConstraints,OnClick" />
 
             <TextView
-                android:id="@+id/timeoff"
+                android:id="@+id/policy_harassment"
                 android:layout_width="264dp"
                 android:layout_height="22dp"
-                android:layout_marginTop="20dp"
-                android:onClick="timeoff"
-                android:text="2 Schedule Time-off"
+                android:layout_marginTop="10dp"
+                android:onClick="policy_harassment"
+                android:text="2 Workplace and Sexual Harassment"
                 android:textColor="@color/lightblue"
-                app:layout_constraintStart_toStartOf="@+id/policy"
-                app:layout_constraintTop_toBottomOf="@+id/policy"
-                tools:ignore="MissingConstraints" />
+                app:layout_constraintStart_toStartOf="@+id/policy_violence"
+                app:layout_constraintTop_toBottomOf="@+id/policy_violence"
+                tools:ignore="MissingConstraints,OnClick" />
 
             <TextView
-                android:id="@+id/days_remaining"
-                android:layout_width="264dp"
-                android:layout_height="22dp"
-                android:layout_marginTop="20dp"
-                android:onClick="daysremaining"
-                android:text="3 Days Remaining"
+                android:id="@+id/policy_Aoda"
+                android:layout_width="77dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="10dp"
+                android:onClick="policy_Aoda"
+                android:text="3 AODA"
                 android:textColor="@color/lightblue"
-                app:layout_constraintStart_toStartOf="@+id/timeoff"
-                app:layout_constraintTop_toBottomOf="@+id/timeoff"
-                tools:ignore="DuplicateIds,MissingConstraints" />
+                app:layout_constraintStart_toStartOf="@+id/policy_harassment"
+                app:layout_constraintTop_toBottomOf="@+id/policy_harassment"
+                tools:ignore="MissingConstraints,OnClick" />
+
+            <TextView
+                android:id="@+id/policy_HealthSafety"
+                android:layout_width="159dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="10dp"
+                android:onClick="policy_HealthSafety"
+                android:text="4 Health and Safety"
+                android:textColor="@color/lightblue"
+                app:layout_constraintStart_toStartOf="@+id/policy_Aoda"
+                app:layout_constraintTop_toBottomOf="@+id/policy_Aoda"
+                tools:ignore="MissingConstraints,OnClick" />
+
+            <TextView
+                android:id="@+id/policy_Privacy"
+                android:layout_width="227dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="10dp"
+                android:onClick="policyPrivacy"
+                android:text=" 5 Privacy and Personal Information"
+                android:textColor="@color/lightblue"
+                app:layout_constraintStart_toStartOf="@+id/policy_HealthSafety"
+                app:layout_constraintTop_toBottomOf="@+id/policy_HealthSafety"
+                tools:ignore="MissingConstraints,OnClick" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -138,7 +174,7 @@
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/main_popout_header"
-            app:menu="@menu/popout_custom_plan" />
+            app:menu="@menu/popout_standard_plan" />
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
