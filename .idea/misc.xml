@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/bg_red.xml" value="0.3828125" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/image_fade.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/rounded.xml" value="0.3828125" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/rounded_blue.xml" value="0.3828125" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/rounded_green.xml" value="0.3828125" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/rounded_red.xml" value="0.3828125" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/drawable/rounded_yellow.xml" value="0.3828125" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_aoda_policy.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_benefits.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_benefits_custom.xml" value="0.36666666666666664" />
@@ -14,19 +21,19 @@
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_gov_leave.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_harassment_policy.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_health_and_safety.xml" value="0.5" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_login2.xml" value="0.4479166666666667" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main_custom.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main_plus.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main_standard.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_main_standard.xml" value="0.33" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_medical.xml" value="0.42460796139927626" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_other_benefits.xml" value="0.45677083333333335" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_other_leaves.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_other_leaves2.xml" value="0.2630208333333333" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_others.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_perks.xml" value="0.4708333333333333" />
-        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policies.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policies.xml" value="0.33" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policy.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policy_plus.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/atibb/AndroidStudioProjects/BuildingBlocksHR/app/src/main/res/layout/activity_policy_privacy.xml" value="0.36666666666666664" />

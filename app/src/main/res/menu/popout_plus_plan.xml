@@ -27,7 +27,7 @@
         android:icon="@drawable/policy"
         android:textColor="#4CAF50"
         android:textStyle="bold"
-        android:title="STANDARD COMPLIANCE POLICIES"
+        android:title="POLICIES"
         app:showAsAction="always" />
 
     <item
@@ -62,7 +62,7 @@
 
     <item
         android:id="@+id/popout_medical"
-        android:title="     1. Medical"
+        android:title="     1. Health"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/popout_dental"
@@ -89,12 +89,9 @@
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/popout_timeoff"
-        android:title="     2. Schedule time off"
+        android:title="     2. Request time off"
         app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/popout_remaining_days"
-        android:title="     3. Days Remaining"
-        app:showAsAction="ifRoom"/>
+
 
 
 

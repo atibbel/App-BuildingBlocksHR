@@ -122,10 +122,10 @@ public class MainActivity_Custom extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-                case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(MainActivity_Custom.this, VacationDaysRemainingActivity.class);
-                    startActivity(nextPage2_3);
-                    break;
+//                case R.id.popout_remaining_days:
+//                    Intent nextPage2_3 = new Intent(MainActivity_Custom.this, VacationDaysRemainingActivity.class);
+//                    startActivity(nextPage2_3);
+//                    break;
 
                     //OTHER LEAVE
                 case R.id.popout_other_leaves:

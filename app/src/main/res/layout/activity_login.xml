@@ -13,7 +13,7 @@
         android:layout_marginTop="88dp"
         android:fontFamily="@font/poppins_light"
         android:text="HR in Your Hands"
-        android:textColor="#880909"
+        android:textColor="#3F51B5"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,53 +21,62 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_standard"
         android:layout_width="244dp"
         android:layout_height="44dp"
         android:layout_marginTop="80dp"
+        android:background="@drawable/rounded"
         android:backgroundTint="#2196F3"
         android:fontFamily="@font/poppins_light"
         android:text="Standard"
+        android:textColor="#FBFBFB"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_plus"
         android:layout_width="249dp"
         android:layout_height="45dp"
         android:layout_marginTop="30dp"
+        android:background="@drawable/rounded"
         android:backgroundTint="#E91E63"
         android:fontFamily="@font/poppins_light"
         android:text="Plus"
+        android:textColor="#FBF9F9"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/button_standard"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button_standard"
         app:layout_constraintTop_toBottomOf="@+id/button_standard" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_custom"
         android:layout_width="248dp"
         android:layout_height="42dp"
         android:layout_marginTop="30dp"
+        android:background="@drawable/rounded"
         android:backgroundTint="#4CAF50"
         android:fontFamily="@font/poppins_light"
         android:text="Custom"
+        android:textColor="#FBFAFA"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/button_plus"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button_plus"
         app:layout_constraintTop_toBottomOf="@+id/button_plus" />
 
+
     <Button
         android:id="@+id/loginButton"
         android:layout_width="249dp"
         android:layout_height="45dp"
         android:text="Login"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button_standard"
         app:layout_constraintHorizontal_bias="1.0"
@@ -80,12 +89,13 @@
         android:layout_width="80dp"
         android:layout_height="76dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/greenpuzzel" />
+        app:srcCompat="@drawable/colored_blocks" />
 
     <TextView
         android:id="@+id/textView3"
@@ -96,6 +106,7 @@
         android:textColor="#353333"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 

@@ -1,5 +1,6 @@
 package algonquin.cst2335.buildingblockshr;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -11,10 +12,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.CalendarView;
+import android.widget.TextView;
 
 import com.google.android.material.navigation.NavigationView;
 
 public class VacationActivity extends AppCompatActivity {
+
+    CalendarView calendar;
+    TextView date_view;
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -112,10 +119,10 @@ public class VacationActivity extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-                case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(VacationActivity.this, VacationDaysRemainingActivity.class);
-                    startActivity(nextPage2_3);
-                    break;
+//                case R.id.popout_remaining_days:
+//                    Intent nextPage2_3 = new Intent(VacationActivity.this, VacationDaysRemainingActivity.class);
+//                    startActivity(nextPage2_3);
+//                    break;
 
                 //OTHER LEAVE
                 case R.id.popout_other_leaves:
@@ -147,17 +154,33 @@ public class VacationActivity extends AppCompatActivity {
             drawer.closeDrawer(GravityCompat.START);
             return false;
         });
+
+        calendar = findViewById(R.id.calendar);
+        date_view = findViewById(R.id.date_view);
+
+        // Add Listener in calendar
+        calendar
+                .setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+                    @Override
+                    // get the value of DAYS, MONTH, YEARS
+                    public void onSelectedDayChange(
+                            @NonNull CalendarView view,
+                            int year,
+                            int month,
+                            int dayOfMonth)
+                    {
+                        // Store the value of date with format in String type Variable. Add 1 in month because month index is start with 0
+                        String Date
+                                = dayOfMonth + "-" + (month + 1) + "-" + year;
+                        // set this date in TextView for Display
+                        date_view.setText(Date);
+                    }
+                });
     }
 
-    public void daysremaining(View view) {
-        Intent nextPage = new Intent(VacationActivity.this, VacationDaysRemainingActivity.class);
-        startActivity(nextPage);
-
-    }
-
-    public void timeoff(View view) {
-        Intent nextPage = new Intent(VacationActivity.this, ScheduleTimeOffActivity.class);
-        startActivity(nextPage);
+    public void click_here(View view) {
+        Intent nextpage = new Intent(VacationActivity.this, ScheduleTimeOffActivity.class);
+        startActivity(nextpage);
 
     }
 

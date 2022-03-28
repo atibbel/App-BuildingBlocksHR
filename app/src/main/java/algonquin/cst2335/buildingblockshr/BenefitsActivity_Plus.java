@@ -108,10 +108,10 @@ public class BenefitsActivity_Plus extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-                case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(BenefitsActivity_Plus.this, VacationDaysRemainingActivity.class);
-                    startActivity(nextPage2_3);
-                    break;
+//                case R.id.popout_remaining_days:
+//                    Intent nextPage2_3 = new Intent(BenefitsActivity_Plus.this, VacationDaysRemainingActivity.class);
+//                    startActivity(nextPage2_3);
+//                    break;
 
 
                 case R.id.home:

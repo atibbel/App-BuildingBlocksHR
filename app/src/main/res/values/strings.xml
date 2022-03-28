@@ -203,7 +203,7 @@
     <string name="procedure_heading">Procedure if a Complaint is made Against an Employee:</string>
     <string name="procedure_p1">If you are accused of any type of violence, an employee must immediately inform your manager. Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations. An employee will be expected to answer questions completely and honestly. An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation. Retaliation will lead to disciplinary action and/ or termination of employment.</string>
     <string name="end">*This policy is subject to be amendment and/or revocation at the company’s sole discretion, without prior notice to employees.</string>
-    <string name="time_off_click_here">If you would like to use your vacation day please click <font color='#01C6DB'>here.</font></string>
+    <string name="time_off_click_here">If you would like schedule time off, please click <font color='#01C6DB'>here.</font></string>
 
     <!-- health -->
     <string name="prescription">• 80%</string>
@@ -255,6 +255,8 @@
     <string name="prevention_heading">Prevention Frequency</string>
     <string name="annual_limit_amount">• 80% reimbursment (except if started half year - 50%)</string>
     <string name="annual_limit_heading">Annual Limit (Combined Basic and Major)</string>
+    <string name="you_have_">You currently have  </string>
+    <string name="vacation_days_remaining">vacation days.</string>
 
 
 </resources>

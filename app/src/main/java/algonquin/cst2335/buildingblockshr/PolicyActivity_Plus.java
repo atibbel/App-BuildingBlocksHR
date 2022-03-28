@@ -96,10 +96,10 @@ public class PolicyActivity_Plus extends AppCompatActivity {
 
 
                 //VACATION
-//                case R.id.popout_vacation:
-//                    Intent nextPage2 = new Intent(PolicyActivity_Plus.this, VacationActivity_Plus.class);
-//                    startActivity(nextPage2);
-//                    break;
+                case R.id.popout_vacation:
+                    Intent nextPage2 = new Intent(PolicyActivity_Plus.this, VacationActivity_Plus.class);
+                    startActivity(nextPage2);
+                    break;
 
                 case R.id.popout_vacation_policy:
                     Intent nextPage2_1 = new Intent(PolicyActivity_Plus.this, VacationPolicyActivity.class);
@@ -111,10 +111,10 @@ public class PolicyActivity_Plus extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-                case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(PolicyActivity_Plus.this, VacationDaysRemainingActivity.class);
-                    startActivity(nextPage2_3);
-                    break;
+//                case R.id.popout_remaining_days:
+//                    Intent nextPage2_3 = new Intent(PolicyActivity_Plus.this, VacationDaysRemainingActivity.class);
+//                    startActivity(nextPage2_3);
+//                    break;
 
 
                 case R.id.home:

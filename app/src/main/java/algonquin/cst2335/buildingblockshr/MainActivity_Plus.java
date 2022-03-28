@@ -14,6 +14,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -116,10 +117,10 @@ public class MainActivity_Plus extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-                case R.id.popout_remaining_days:
-                    Intent nextPage2_3 = new Intent(MainActivity_Plus.this, VacationDaysRemainingActivity.class);
-                    startActivity(nextPage2_3);
-                    break;
+//                case R.id.popout_remaining_days:
+//                    Intent nextPage2_3 = new Intent(MainActivity_Plus.this, VacationDaysRemainingActivity.class);
+//                    startActivity(nextPage2_3);
+//                    break;
 
                 case R.id.home:
                     Intent nextPage3 = new Intent(MainActivity_Plus.this, MainActivity_Plus.class);
@@ -146,6 +147,14 @@ public class MainActivity_Plus extends AppCompatActivity {
             startActivity(nextPage);
             Toast.makeText(MainActivity_Plus.this, R.string.loading, Toast.LENGTH_SHORT).show();
         });
+
+        // displays user name on main page.
+        // will change after we get a database connection.
+        Intent welcome = getIntent();
+        String userName = welcome.getStringExtra("userName");
+        TextView name = findViewById(R.id.username);
+        name.setText("Welcome Back " + userName);
+        // Shared prefs will be(?) needed
 
     }
 
