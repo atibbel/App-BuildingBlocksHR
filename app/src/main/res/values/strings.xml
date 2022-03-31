@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="register">No account? Register <font color='#01C6DB'>here.</font></string>
     <string name="app_name">BuildingBlocksHR</string>
@@ -157,16 +157,6 @@
     <string name="aoda_heading">Accessibility Standard for Customer Service AODA Policy </string>
     <string name="health_safety_heading">Health and Safety Policy</string>
     <string name="applicability_heading">Applicability</string>
-    <string name="health_intent_p1">The policy intent is to ensure that the company commitment to providing a healthy and safe work environment is communicated and understood by all employees.
-        \n\nThe company (the “Company”) considers health and safety a critical priority requiring the constant attention and involvement of both management and employees. The company requires that
-        all employees comply with all applicable health and safety regulations and insists that all employees respect and abide by spirit and intent of health and safety regulations.
-        \n\nA healthy and safe workplace benefits both the company and its employees.  Management and employees have a shared responsibility to maintain a healthy and safe workplace.  Management is
-        committed to promoting safe work practices and to taking all reasonable precautions to address workplace hazards.  Employees will accept responsibility for working in a safe manner and for
-        bringing potentially hazardous conditions or practices to the attention of management.
-        \n\nIt is the company’s policy to:
-        \n\n(a) Strive toward eliminating workplace injuries and illnesses.
-        \n(b) Have a fire safety and emergency plan in place.
-        \n(c) Comply with municipal, provincial and federal health and safety legislation.</string>
 
     <string name="privacy_heading">Privacy and Personal Infromation and Electronic Documents Policy</string>
     <string name="applicability_p1">These guidelines apply to all the company employees, including temporary employees.</string>
@@ -257,6 +247,204 @@
     <string name="annual_limit_heading">Annual Limit (Combined Basic and Major)</string>
     <string name="you_have_">You currently have  </string>
     <string name="vacation_days_remaining">vacation days.</string>
+
+    <!-- AODA Policy-->
+    <string name="definitions_of_the_act_heading">Definitions of the Act</string>
+    <string name="disability"><i>Disability</i>
+        \n\u2022   Any degree of physical disability, infirmity malformation or disfigurement that is caused by bodily injury, birth defect or illness and, without limiting the generality of the foregoing, includes diabetes mellitus, epilepsy, a brain injury, any degree of paralysis, amputation, lack of physical co-ordination, blindness or visual impediment, deafness or hearing impediment, muteness or speech impediment, or physical reliance on a guide dog or other animal or on a wheelchair or other remedial appliance or device,
+        \n\u2022   A condition of mental impairment or a development disability,
+        \n\u2022   A learning disability, or a dysfunction in one or more of the processes involved in understanding or using symbols or spoken language,
+        \n\u2022   A mental disorder or,
+        \n\u2022   An injury or disability for which benefits were claimed or received under the insurance plan established under the Workplace Safety and Insurance Act, 1997 (“handicap”). </string>
+    <string name="accessibility_standard">\n<i>Accessibility Standard</i>
+        \n\u2022   An accessibility standard made by regulation under section 6; (“accessibility norm”)
+        \n\u2022   “Barrier” means anything that prevents a person with a disability from fully participating in all aspects of society because of his or her disability, including a physical barrier, an architectural barrier, an information or communications barrier, an attitudinal barrier, a technological barrier, a policy or a practice; (“obstacle”)</string>
+    <string name="other_definitions">Other Definitions</string>
+    <string name="guide_dog">\n<u>Guide Dog </u>
+        \nThis is a highly-trained working dog that has been trained at a facility regulated by the government, to provide mobility, safety and increased independence for people who are blind. "</string>
+    <string name="service_animal">\n<u>Service Animal</u>
+        \nAn animal is a service animal for a person with a disability if:
+        \n\u2022  It is readily apparent that the animal is used by the person for reasons relating to his or her disability; or
+        \n\u2022  If the person provides a letter from a physician or nurse confirming that the person requires the animal for reasons relating to the disability.</string>
+    <string name="service_dog">\n<u>Service Dog</u>
+        \nA dog other than a guide dog for the blind is a service dog if:
+        \n\u2022  It is readily apparent to an average person that the dog functions as a service dog for a person with a medical disability; or
+        \n\u2022  The person who requires the dog can provide on request, a letter from a physician or nurse confirming that the person requires a service dog.</string>
+    <string name="support_person">\n<u>Support Person</u>
+        \nA support person means another person who accompanies a person with disability in order to help with communication, mobility, personal care, medical needs or access to goods and services.</string>
+    <string name="assistive_device">\n<u>Assistive Device</u> This is a technical aid, communication device or other instrument that is used to maintain or improve the functional abilities of people with disabilities. Personal assistive devices are typically devices that customers bring with them such as a wheelchair, walker or a personal oxygen tank that might assist in hearing, seeing, communicating, moving, breathing, remembering and/or reading. "</string>
+    <string name="providing_goods">Providing Goods and Services to People with Disabilities "</string>
+    <string name="providing_goods_p1">Assistive Devices
+        \nWe will ensure that our staff are trained and familiar with various assistive devices that may be used by customers with disabilities while accessing our goods or services.
+        \n\nCommunication
+        \nWe will communicate with people with disabilities in ways that take into account their disability.
+        \n\nService animals
+        \nWe welcome people with disabilities and their service animals. Service animals are allowed on the parts of our premises that are open to the public.
+        \n\nSupport persons
+        \nA person with a disability who is accompanied by a support person will be allowed to have that person accompany them on our premises. </string>
+    <string name="how_to_communicate">How to Communicate with People with Different Types of Disabilities</string>
+    <string name="how_to_communicate_p1">There are many types and degrees of disability. Openly communicating and responding to your customers’ needs is the key to excellent customer service for all. If you’re not sure about the best approach, just politely ask a person with a disability how you can best communicate with them.
+        \n\n<u>Here are a few tips for interacting with people who have various disabilities:</u>
+        \n\n<b>People with physical disabilities</b>
+        \nOnly some people with physical disabilities use a wheelchair. Someone with a spinal cord injury may use crutches while someone with severe arthritis or a heart condition may have difficulty walking longer distances.
+        \n\n<b>Tips: </b>
+        \n\u2022  If you need to have a lengthy conversation with someone who uses a wheelchair or scooter, consider sitting so you can make eye contact at the same level.
+        \n\u2022  Don’t touch items or equipment, such as canes or wheelchairs, without permission.
+        \n\u2022  If you have permission to move a person’s wheelchair, don’t leave the person in an awkward, dangerous or undignified position, such as facing a wall or in the path of opening doors.
+        \n\n<b>People with vision loss</b>
+        \nVision loss can restrict someone’s ability to read, locate landmarks or see hazards. Some customers may use a guide dog or a white cane, while others may not.
+        \n\n<b>Tips:</b>
+        \n\u2022  When you know someone has vision loss, don’t assume the individual can’t see you. Many people who have low vision still have some sight.
+        \n\u2022  Identify yourself when you approach and speak directly to the customer.
+        \n\u2022  Ask if they would like you to read any printed material out loud to them (for example, a menu or schedule of fees).
+        \n\u2022  When providing directions or instructions, be precise and descriptive.
+        \n\u2022  Offer your elbow to guide them if needed.
+        \n\n<b>People who have hearing loss</b>
+        \nPeople who have hearing loss may be deaf, deafened or hard of hearing. They may also be oral deaf – unable to hear, but prefer to talk instead of using sign language. These terms are used to describe different levels of hearing and/or the way a person’s hearing was diminished or lost.
+        \n\n<b>Tips:</b>
+        \n\2022  Once a customer has identified themselves as having hearing loss, make sure you are in a well-lit area where they can see your face and read your lips.
+        \n\u2022  As needed, attract the customer’s attention before speaking. Try a gentle touch on the shoulder or wave of your hand.
+        \n\u2022  If your customer uses a hearing aid, reduce background noise or move to a quieter area.
+        \n\u2022  If necessary, ask if another method of communicating would be easier (for example, using a pen and paper).
+        \n\n<b>People who are deafblind</b>
+        \nA person who is deafblind may have some degree of both hearing and vision loss. Many people who are deafblind will be accompanied by an intervener, a professional support person who helps with communication. </string>
+    <string name="how_to_communicate_p2">Tips:
+        \n\u2022A customer who is deafblind is likely to explain to you how to communicate with him/her, perhaps with an assistance card or a note.
+        \n\u2022  Speak directly to your customer, not to the intervener.
+        \n\n<b>People with speech or language impairments</b>
+        \nCerebral palsy, hearing loss or other conditions may make it difficult for a person to pronounce words or may cause slurring. Some people who have severe difficulties may use a communication board or other assistive devices.
+        \n\n<b>Tips:</b>
+        \n\u2022  Don’t assume that a person with a speech impairment also has another disability.
+        \n\u2022  Whenever possible, ask questions that can be answered with “yes” or a “no”.
+        \n\u2022  Be patient. Don’t interrupt or finish your customer’s sentences.
+        \n\n<b>People who have learning disabilities</b>
+        \nThe term “learning disabilities” refers to a variety of disorders. One example is dyslexia, which affects how a person takes in or retains information. This disability may become apparent when a person has difficulty reading material or understanding the information you are providing.
+        \n\n<b>Tips:</b>
+        \n\u2022  Be patient – people with some learning disabilities may take a little longer to process information, to understand and to respond.
+        \n\u2022  Try to provide information in a way that takes into account the customer’s disability. For example, some people with learning disabilities find written words difficult to understand, while others may have problems with numbers and math.
+        \n\n<b>People who have intellectual / developmental disabilities/</b>
+        \nDevelopmental or intellectual disabilities, such as Down Syndrome, can limit a person’s ability to learn, communicate, do every day physical activities and live independently. You may not know that someone has this disability unless you are told.
+        \n\n<b>Tips:</b>
+        \n\u2022  Don’t make assumptions about what a person can do.
+        \n\u2022  Use plain language.
+        \n\u2022  Provide one piece of information at a time.
+        \n\n<b>People who have mental health disabilities</b>
+        \nMental health issues can affect a person’s ability to think clearly, concentrate or remember things. Mental health disability is a broad term for many disorders that can range in severity. For example, some customers may experience anxiety due to hallucinations, mood swings, phobias or panic disorder.
+        \n\n<b>Tips:</b>
+        \n\u2022  If you sense or know that a customer has a mental health disability, be sure to treat them with the same respect and consideration you have for everyone else.
+        \n\u2022  Be confident, calm and reassuring.
+        \n\u2022  If a customer appears to be in crisis, ask them to tell you the best way to help. </string>
+    <string name="how_to_interact_devices">How to interact with people who use assistive devices, and how to use any equipment that the company provides to help customers with disabilities</string>
+    <string name="how_to_interact_devices_p1">The company offers equipment and assistive devices for customers with disabilities and our employees are trained to use them.  Instruction manuals and instruction sheet posted are readily available at all the company premises where devices are located or stored.
+        \n\nAn assistive device is a tool, technology or other mechanism that enables a person with a disability to do everyday tasks and activities, such as moving, communicating or lifting. Personal assistive devices can include things like wheelchairs, hearing aids, white canes or speech amplification devices.
+        \n\n<b>Tips: </b>
+        \n\u2022  Don’t touch or handle any assistive device without permission.
+        \n\u2022  Don’t move assistive devices or equipment, such as canes and walkers, out of your customers’ reach.
+        \n\u2022  Let your customers know about accessible features in the immediate environment that are appropriate to their needs (e.g. public phones with TTY service, accessible washrooms, etc.).  </string>
+    <string name="how_to_interact_animals">How to interact with a person who has a guide dog or other service animal</string>
+    <string name="how_to_interact_animals_p1">People with vision loss may use a guide dog, but there are other types of service animals as well. Hearing alert animals help people who are deaf, deafened, oral deaf, or hard of hearing. Other service animals are trained to alert an individual to an oncoming seizure.
+        \n\nUnder the standard, service animals must be allowed on the parts of your premises that are open to the public. In some instances, service animals will not be permitted in certain areas by law (for example, a restaurant kitchen).
+        \n\n<b>Tips: </b>
+        \n\u2022  Remember that a service animal is not a pet. It is a working animal. Avoid touching or addressing them.
+        \n\u2022  If you’re not sure if the animal is a pet or a service animal, ask your customer.  </string>
+    <string name="how_to_support_person">How to serve a person accompanied by a support person</string>
+    <string name="how_to_support_person_p1">Some people with disabilities may be accompanied by a support person, such as an intervener. A support person can be a personal support worker, a volunteer, a family member or a friend. A support person might help a customer with a variety of things from communicating, to helping with mobility, personal care or medical needs.
+        \nSupport persons are welcomed by the company and are permitted in any part of the company’s premises that are open to the public.
+        \n\n<b>Tips: </b>
+        \n\u2022  If you’re not sure which person is the customer, take your lead from the person using or requesting your goods or services, or simply ask.
+        \n\u2022  Speak directly to your customer, not to their support person.  </string>
+    <string name="how_to_assist_w_dissabilities">How to assist people with disabilities who need help accessing your goods or services</string>
+    <string name="how_to_assist_w_dissabilities_p1">If you notice that your customer is having difficulty accessing your goods or services, a good starting point is to simply ask “How can I help you?”.
+        \n\nYour customers are your best source for information about their needs. A solution can be simple and they will likely appreciate your attention and consideration. "</string>
+    <string name="notice_of_disruption">Notice of Temporary Disruption</string>
+    <string name="notice_of_disruption_p1">In the event of a planned or unexpected disruption to service or facilities for customers with disabilities, the company will notify clients promptly.
+        \n\n<b>Notifications will include:</b>
+        \n\u2022  Goods or services that are disrupted or unavailable
+        \n\u2022  Information about the reason for the disruption \tIts anticipated length of time of disruption
+        \n\u2022  A description of alternative facilities or services, if available
+        \n\nAn AODA Disruption in Service Notice template should be used to prepare notice of temporary disruption (if required)
+        \n\n<b>Notifications Options:</b>
+        \nWhen disruptions occur, the company will provide notice by:
+        \n\u2022  Posting notices in conspicuous places including at the point of disruption, at the main entrance and the nearest accessible entrance to the service disruption and/or on the company website;
+        \n\u2022  Contacting customers with appointments; \tVerbally notifying customers when they are making a reservation or appointment; or
+        \n\u2022  By any other method that may be reasonable under the circumstances. </string>
+    <string name="staff_training">Training for Staff</string>
+    <string name="staff_training_p1">The company will provide training to employees and others who deal with the public or other third parties on their behalf.
+        \n\n<u>Information that will be provided: </u>
+        \n\nAn overview of the Accessibility for Ontarians with Disabilities Act, 2005 and other provincial legislation as they become adopted.
+        \n\u2022  The requirements of the customer service standard.
+        \n\u2022  The company plan related to the customer service standard.
+        \n\u2022  How to interact and communicate with people with various types of disabilities.
+        \n\u2022  How to interact with people with disabilities who use an assistive device or require the assistance of a service animal or a support person.
+        \n\u2022  How to use specific equipment or device, e.g. wheelchair, etc.
+        \n\u2022  What to do if a person with a disability is having difficulty in accessing the company’s goods and services.
+        \n\u2022  When changes are made to the company plan. </string>
+    <string name="feedback">Feedback Process</string>
+    <string name="feedback_p1">\u2022  Customers who wish to provide feedback on the way the company provides goods and services to people with disabilities can provide feedback through email or verbally.
+        \n\u2022  All feedback will be directed to Human Resources. \tCustomers can expect to hear back within 48 business hours.
+        \n\u2022  Complaints will be addressed according to our organization’s regular complaint management procedures. </string>
+    <string name="mods_to_policy">Modifications to this or other policies</string>
+    <string name="mods_to_policy_p1">Any policy of the company that does not respect and promote the dignity and independence of people with disabilities will be modified or removed.
+        \n\nPlease contact Human Resources should you require additional information
+        \n\n\n<i>*This policy is subject to be amendment and/or revocation at the company’s sole discretion, without prior notice to employees</i>\n\n\n\n</string>
+
+<!-- HEALTH AND SAFETY POLICY -->
+    <string name="health_intent_p1" tools:ignore="TypographyOther">The policy intent is to ensure that the company commitment to providing a healthy and safe work environment is communicated and understood by all employees.
+        \n\nThe company (the “Company”) considers health and safety a critical priority requiring the constant attention and involvement of both management and employees. The company requires that
+        all employees comply with all applicable health and safety regulations and insists that all employees respect and abide by spirit and intent of health and safety regulations.
+        \n\nA healthy and safe workplace benefits both the company and its employees.  Management and employees have a shared responsibility to maintain a healthy and safe workplace.  Management is
+        committed to promoting safe work practices and to taking all reasonable precautions to address workplace hazards.  Employees will accept responsibility for working in a safe manner and for
+        bringing potentially hazardous conditions or practices to the attention of management.
+        \n\nIt is the company’s policy to:
+        \n\n(a) Strive toward eliminating workplace injuries and illnesses.
+        \n(b) Have a fire safety and emergency plan in place.
+        \n(c) Comply with municipal, provincial and federal health and safety legislation.</string>
+    <string name="management_responsibilities_heading">Responsibilities: Management</string>
+    <string name="manage_responsabilities_p1">\n1.\tEnsure that all facilities and working environments, working procedures, machinery, equipment, tools, vehicles, mobile equipment, safety materials, equipment, devices, and clothing used by employees in the course of their employment meet all legislated and prescribed safety codes and safety standards.
+        \n\n2.\tProvide each employee with information, instructions, training and supervision necessary to ensure the health and safety of employees at work, as required by safety codes and safety standards.
+        \n\n3.\tInvestigate, record, and report all known accidents, occupational diseases and other hazardous occurrences, take necessary remedial action, and maintain all health and safety records as required.
+        \n\n4.\tProvide first-aid facilities and services, and sanitary facilities as prescribed by safety codes and safety standards.
+        \n\n5.\tEnsure compliance with all fire safety and emergency measures prescribed by safety codes and safety standards.
+        \n\n6.\tEnsure that every person granted access to the workplace complies with all safety requirements and is provided with and made familiar with the use of all required safety materials, devices, and clothing.
+        \n\n7.\tEnsure that all hazardous substances in the workplace are controlled, handled, identified, labeled, and recorded as prescribed by the Workplace Hazardous Materials Information System legislation.
+        \n\n8.\tEnsure that employees receive adequate training in their specific work tasks to protect their health and safety. </string>
+    <string name="employee_responsibilities">Responsibilities: Employees</string>
+    <string name="employee_responsibilities_p1">\n1.\tUse all protective safety materials, equipment, device and clothing provided by the company, as applicable.
+        \n\n2.\tFollow all prescribed health and safety procedures and instructions.
+        \n\n3.\tTake all reasonable and necessary precautions to ensure the health and safety of themselves and others.
+        \n\n4.\tImmediately report to the supervisor/manager any item or circumstance in the workplace that is likely to be hazardous to the health and safety of themselves or others.
+        \n\n5.\tImmediately notify supervisor/manager of every accident or other occurrence arising in the course of, or in connection with, the employee’s work that has caused injury to themselves or any other individual, and/or damage to company property and /or the property of others.</string>
+    <string name="safety_comittee_responsibilities">Responsibilities: Health and Safety Committee Members</string>
+    <string name="safety_comittee_responsibilities_p1">\n1.\tEstablish and maintain a committee comprised of required number of individuals, according to legislated requirements.
+        \n\n2.\tPerform occupational health and safety inspections of the workplace to identify and manage any and all hazards to employees.
+        \n\n3.\tMeet during regular working hours at least every other month to make recommendations for the correction of unsafe or unhealthy conditions and work practices
+        \n\n4.\tConsider suggestions/complaints from employees on health and safety matters in order to promote health and safety activities and programs, and to conduct or assist in carrying out safety audits within the company to uncover potentially unsafe/dangerous conditions or practices.
+        \n\n5.\tTo keep accurate records of all matters brought to their attention, and keep minutes of all meetings.
+        \n\n6.\tPost a copy of the minutes of each meeting in a place accessible to all employees.
+        \n\n7.\tPost the names and department of all members of the Health and Safety Committee.
+        \n\n8.\tPost a copy of this policy, a copy of the Health and Safety Act and other material relating to the health and safety of employees in a place accessible to all employees.
+        \n\n9.\tRecord and investigate all workplace accidents. </string>
+    <string name="human_sources_responsibilities">Responsibilities: Human Resources</string>
+    <string name="human_resources_responsibilities_p1">\n1.\tLiaise with government agencies to ensure workplace health and safety compliance.
+        \n\n2.\tAct as an advisor to management on health and safety policy issues.
+        \n\n3.\tCoordinate health and safety inspections and follow-up to ensure the completion of necessary corrective actions.
+        \n\n4.\tDesign and develop accident / incident reports and investigation procedures and company policies and procedures on workplace health and safety issues.
+        \n\n5.\tMaintain an up-to-date working knowledge of health and safety regulations as mandated locally, provincially, or federally.
+        \n\n6.\tReview injury and illness trends, and identify problem areas and solutions. </string>
+    <string name="accident_reporting">Accident and Incident Reporting</string>
+    <string name="accident_reporting_p1">Each division will ensure that at least two employees are trained in first aid procedures.  When an employee is ill or injured, all employees share the responsibility to inform their Manager and Human Resources.
+        \n\nManagers and Human Resources will adhere to the following process:
+        \n\t\t\u2022\t\tProvide first aid.
+        \n\t\t\u2022\t\tArrange transportation to medical treatment, if required.
+        \n\t\t\u2022\t\tMake a record of the incident and first aid given.
+        \n\t\t\u2022\t\tInvestigate the incident and keep a record of steps taken to correct the problems.</string>
+    <string name="fire_safety">Fire Safety</string>
+    <string name="fire_safety_p1">Through the Health and Safety Committee, the company will develop, where possible, a fire safety and emergency plan which will be communicated to employees.
+    \n\n</string>
+    <string name="policy_review"><i><b>The policy and program will be reviewed annually. Please contact Human Resources should you require additional information</b></i>\n\n\n</string>
+
+    <!-- Privacy and Personal Information Policy -->
+
 
 
 </resources>
