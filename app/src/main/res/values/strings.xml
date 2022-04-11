@@ -14,8 +14,8 @@
     <string name="health_safety">Health and Safety</string>
     <string name="privacy">Privacy and Personal information</string>
     <string name="other_policies">Other Policies</string>
-    <string name="vacation"><u>Vacation</u></string>
-    <string name="benefits"><u>Benefits</u></string>
+    <string name="vacation">Vacation</string>
+    <string name="benefits">Benefits</string>
     <string name="loading">Just a moment...</string>
     <string name="violence_policy_heading"><u>Violence in the Workplace Policy</u></string>
     <string name="scope_heading">Applicability and Scope</string>
@@ -666,8 +666,10 @@
         \nIf you are accused of any type of harassment, an employee must immediately inform your manager or Human Resources.  Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations.  An employee will be expected to answer questions completely and honestly.  An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation.
         Retaliation will lead to corrective action and/ or termination of employment. \n   </string>
     <string name="this_policy_subject_to"><i>\n*This policy is subject to be amendment and/or revocation at the Company\'s sole discretion, without prior notice to employees.\n\n</i>  </string>
+
+   <!-- vacation policy -->
     <string name="applicability">This policy applies to all employees. </string>
-    <string name="vacation_intent_p1">"The purpose of this policy is to define the guidelines for vacation for the company.   The company deems vacation as very important!  The company recognizes that you need time away from work for rest and recreation and to regenerate to work effectively throughout the year.  Therefore, we encourage all employees to take time away from work by taking their vacation.  The following is an outline of the vacation guidelines and entitlement:  "</string>
+    <string name="vacation_intent_p1">The purpose of this policy is to define the guidelines for vacation for the company.   The company deems vacation as very important!  The company recognizes that you need time away from work for rest and recreation and to regenerate to work effectively throughout the year.  Therefore, we encourage all employees to take time away from work by taking their vacation.  The following is an outline of the vacation guidelines and entitlement:  "</string>
     <string name="eligibility_heading">Eligibility</string>
     <string name="eligibility_p1">"\tAll regular full-time and part-time employees are eligible for vacation \tFull-time, permanent employees are eligible to receive vacation time off with pay if salaried and full-time and part-time hourly employees are eligible to receive payment equivalent to 4% of their earnings on account of their vacation entitlement. \tEmployees or individuals whose status changes from temporary/contract to permanent will be eligible for a prorated vacation accrual commencing on the first day of their new permanent status. "</string>
     <string name="vacation_year_heading">Vacation Year</string>
