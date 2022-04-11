@@ -877,6 +877,18 @@
         app:layout_constraintStart_toStartOf="@+id/textView130"
         app:layout_constraintTop_toBottomOf="@+id/textView130" />
 
+    <View
+        android:id="@+id/end_primerdivisor"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/textView122"
+        app:layout_constraintTop_toBottomOf="@+id/textView131"
+        />
+
     <TextView
         android:id="@+id/textView132"
         android:layout_width="375dp"
@@ -887,8 +899,8 @@
         android:textColor="#0C0C0C"
         android:textSize="12sp"
         android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="@+id/textView131"
-        app:layout_constraintTop_toBottomOf="@+id/textView131" />
+        app:layout_constraintStart_toStartOf="@+id/end_primerdivisor"
+        app:layout_constraintTop_toBottomOf="@+id/end_primerdivisor" />
 
     <!--    USE <br/> TO CREATE A NEW LINE AND MERGE MULTIPLE LINE OF TEXT TO REDUCE THE AMOUNT OF TEXTVIEWS -->
     <!-- TO ADD A BULLET TO STRING-> \u2022  -->

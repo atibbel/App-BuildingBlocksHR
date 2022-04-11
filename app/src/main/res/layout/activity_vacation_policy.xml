@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         tools:context=".ViolencePolicyActivity">
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textView1"
             android:layout_width="328dp"
             android:layout_height="29dp"
             android:fontFamily="@font/poppins_light"
@@ -24,75 +23,426 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.289"
+            app:layout_constraintHorizontal_bias="0.457"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.2" />
+            app:layout_constraintVertical_bias="0.02" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textView2"
             android:layout_width="93dp"
             android:layout_height="20dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins_light"
             android:text="Effective Date:"
             android:textSize="12sp"
-            app:layout_constraintBottom_toTopOf="@+id/textView15"
-            app:layout_constraintStart_toStartOf="@+id/textView12"
-            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView3"
             android:layout_width="87dp"
             android:layout_height="20dp"
             android:layout_marginStart="5dp"
             android:text="January 1, 2022"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView13"
-            app:layout_constraintStart_toEndOf="@id/textView13"
-            app:layout_constraintTop_toTopOf="@+id/textView13"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
             app:layout_constraintVertical_bias="0.0" />
 
         <!-- Line to seperate text from heading -->
-
         <View
             android:id="@+id/primerdivisor"
             android:layout_width="fill_parent"
             android:layout_height="2dp"
             android:layout_marginBottom="10dp"
             android:background="#3F51B5"
-            app:layout_constraintBottom_toTopOf="@+id/textView15"
-            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="52dp"
             android:fontFamily="@font/poppins_light"
-            android:text="@string/scope_heading"
+            android:text="@string/applicability_heading"
             android:textColor="#2196F3"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintHorizontal_bias="0.048"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/textView5"
             android:layout_width="375dp"
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
             android:fontFamily="@font/poppins_light"
-            android:text="@string/scope"
+            android:text="@string/applicability"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/policyIntent_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_intent_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/eligibility_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/eligibility_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_year_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_year_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_guidelines"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_guidelines_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_schedule"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_sched_service"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_sched_ent"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_sched_monthly"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_percent"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_percent_service"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_percent_ent"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView23"
+            app:layout_constraintStart_toEndOf="@+id/textView21"
+            app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="125dp"
+            android:layout_height="194dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/entitlement_percent_monthly"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_carry_over"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_carry_over_p1"
             android:textColor="#201D1D"
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="@+id/textView15"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/hourly_part_time"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView24"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/hourly_part_time_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_request"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/vacation_request_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/maternity_leave"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/maternity_leave_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView29"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/maternity_leave"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView30"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/maternity_leave_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView31"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <View
+            android:id="@+id/end_primerdivisor"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#3F51B5"
+            app:layout_constraintBottom_toBottomOf="@+id/textView33"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/contact"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView33"
+            app:layout_constraintTop_toBottomOf="@+id/end_primerdivisor" />
+
+
+
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

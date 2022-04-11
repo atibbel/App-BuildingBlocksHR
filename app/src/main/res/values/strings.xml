@@ -20,21 +20,6 @@
     <string name="violence_policy_heading"><u>Violence in the Workplace Policy</u></string>
     <string name="scope_heading">Applicability and Scope</string>
     <string name="scope">This policy applies to all the company employees, including temporary employees and independent contractors.</string>
-    <string name="scope_applicable">The policy is applicable whenever an employee or independent contractor:</string>
-    <string name="p1bullet1">\u2022,Carries out duties or conducts business on behalf of the company;
-        \n• Represents the company on committees or at work related events/conferences
-        \n• Attends work-related and industry functions; and/or
-        \n• Socializes with other employees.</string>
-
-    <string name="scope_location"> Locations and situations covered by this policy include, but are not limited to:</string>
-    <string name="location_bullet1">• the company offices and worksites;
-        \n• Other buildings or premises under the jurisdiction of the company;
-        \n• Company vehicles;
-        \n• Social functions sanctioned by or under the jurisdiction of the company whether held at company offices or facilities or at other locations approved by the company;
-        \n• Work-related travel outside of company facilities;
-        \n• Incidents which occur outside the workplace, but have negative repercussions at work or adversely affect working relationships;
-        \n• Harassment that occurs by electronic means (e-mail, telephone, voice mail, internet, or fax) or written communication; and
-        \n• Any other locations or events where company business, operations, or social functions are carried out.</string>
 
     <string name="policyIntent_heading">Policy Intent</string>
     <string name="intentp1">The company recognizes that every person is entitled to a safe work environment that is free of violence and threatening behaviour.</string>
@@ -153,24 +138,9 @@
         \n▪ Extortion; and/ or
         \n▪ Physical assault or threats of physical assault.</string>
     <string name="investigating_complaints_note">Note: Whether or not a formal complaint is filed, the company or a third party may be obligated to proceed with an investigation if it appears that applicable legislation and/or the policy has been violated.</string>
-    <string name="sexual_harassment_heading">Workplace Harassment Policy</string>
-    <string name="aoda_heading">Accessibility Standard for Customer Service AODA Policy </string>
+
     <string name="health_safety_heading">Health and Safety Policy</string>
     <string name="applicability_heading">Applicability</string>
-
-    <string name="privacy_heading">Privacy and Personal Infromation and Electronic Documents Policy</string>
-    <string name="applicability_p1">These guidelines apply to all the company employees, including temporary employees.</string>
-    <string name="privacy_intent_p1">The company is committed to protecting the privacy of personal information of its clients, employees, independent contractors, funders and other stakeholders.  the company corporate policy on privacy is posted on the Company website at www.motionspecialties.com.
-        \n\nEmployees’ personal information remains confidential throughout their career as well as after their employment with the company ends. Employees’ information will not be collected used or disclosed except in accordance with the guidelines of federal and provincial privacy acts.  Information
-        about any employee will not be released without the employee’s authorization except where required by law.
-        \n\nThe company will only collect employees’ personal information where permission is provided or if there is a potential contravention of the law or breaches of agreements or other circumstances that permit us to legally collect this information under the laws of Canada.
-        \n\nThis policy is to ensure that the company is complying with the Personal Information Protection and Electronic Documents Act (PIPEDA) that outlines the protection for an employee in regards to the collection, use and disclosure of personal information </string>
-    <string name="aoda_p1">The Accessibility Standard for Customer Service is an Ontario regulation that applies to all people and organizations across all provinces where the company operates. "</string>
-    <string name="aoda_intent_p1">The purpose of this policy is to ensure that the company is committed to excellence in serving all clients including individuals with disabilities.</string>
-    <string name="regulation_heading">The Regulation</string>
-    <string name="aoda_regualtion_p1">Recognizing the history of discrimination against persons with disabilities in Ontario and Canada, the purpose of the Accessibility Standard for Customer Service is to benefit everyone by:
-        \n\n(a) Developing, implementing and enforcing accessibility standards in order to achieve accessibility for Ontarians with disabilities with respect to goods, services, facilities, accommodation, employment, buildings, structures and premises on or before January 1, 2012; and
-        \n\n(b) Providing for the involvement of persons with disabilities, of all the Governments and of representatives of industries and of various sectors of the economy in the development of the accessibility standards. </string>
 
     <string name="responsibilities_heading">Responsibilities</string>
     <string name="responsibilities_p1">All the company employees have a responsibility not to harass any other employee, contract employee, consultant, supplier, customer or visitor. Each employee in a management capacity must not allow or condone behaviour contrary to this policy and is
@@ -191,8 +161,8 @@
     <string name="reprisals_heading">Reprisals:</string>
     <string name="reprisals_p1">No employee shall be demoted, dismissed, disciplined or denied a promotion, advancement or employment opportunity or suffer a change in job responsibility because he/she has reported violence against another employee, has lodged a complaint in accordance with this policy, or has supported another employee in his/her complaint.</string>
     <string name="procedure_heading">Procedure if a Complaint is made Against an Employee:</string>
-    <string name="procedure_p1">If you are accused of any type of violence, an employee must immediately inform your manager. Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations. An employee will be expected to answer questions completely and honestly. An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation. Retaliation will lead to disciplinary action and/ or termination of employment.</string>
-    <string name="end">*This policy is subject to be amendment and/or revocation at the company’s sole discretion, without prior notice to employees.</string>
+    <string name="procedure_p1">\nIf you are accused of any type of violence, an employee must immediately inform your manager. Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations. An employee will be expected to answer questions completely and honestly. An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation. Retaliation will lead to disciplinary action and/ or termination of employment.</string>
+    <string name="end">\n*This policy is subject to be amendment and/or revocation at the company’s sole discretion, without prior notice to employees.</string>
     <string name="time_off_click_here">If you would like schedule time off, please click <font color='#01C6DB'>here.</font></string>
 
     <!-- health -->
@@ -249,6 +219,14 @@
     <string name="vacation_days_remaining">vacation days.</string>
 
     <!-- AODA Policy-->
+    <string name="aoda_heading">Accessibility Standard for Customer Service AODA Policy </string>
+    <string name="aoda_p1">The Accessibility Standard for Customer Service is an Ontario regulation that applies to all people and organizations across all provinces where the company operates. "</string>
+    <string name="aoda_intent_p1">The purpose of this policy is to ensure that the company is committed to excellence in serving all clients including individuals with disabilities.</string>
+    <string name="regulation_heading">The Regulation</string>
+    <string name="aoda_regualtion_p1">Recognizing the history of discrimination against persons with disabilities in Ontario and Canada, the purpose of the Accessibility Standard for Customer Service is to benefit everyone by:
+        \n\n(a) Developing, implementing and enforcing accessibility standards in order to achieve accessibility for Ontarians with disabilities with respect to goods, services, facilities, accommodation, employment, buildings, structures and premises on or before January 1, 2012; and
+        \n\n(b) Providing for the involvement of persons with disabilities, of all the Governments and of representatives of industries and of various sectors of the economy in the development of the accessibility standards. </string>
+
     <string name="definitions_of_the_act_heading">Definitions of the Act</string>
     <string name="disability"><i>Disability</i>
         \n\u2022   Any degree of physical disability, infirmity malformation or disfigurement that is caused by bodily injury, birth defect or illness and, without limiting the generality of the foregoing, includes diabetes mellitus, epilepsy, a brain injury, any degree of paralysis, amputation, lack of physical co-ordination, blindness or visual impediment, deafness or hearing impediment, muteness or speech impediment, or physical reliance on a guide dog or other animal or on a wheelchair or other remedial appliance or device,
@@ -445,6 +423,283 @@
 
     <!-- Privacy and Personal Information Policy -->
 
+    <string name="privacy_heading">Privacy and Personal Information and Electronic Documents Policy</string>
+    <string name="applicability_p1">These guidelines apply to all the company employees, including temporary employees.</string>
+    <string name="privacy_intent_p1">The company is committed to protecting the privacy of personal information of its clients, employees, independent contractors, funders and other stakeholders.  the company corporate policy on privacy is posted on the Company website at www.motionspecialties.com.
+        \n\nEmployees’ personal information remains confidential throughout their career as well as after their employment with the company ends. Employees’ information will not be collected used or disclosed except in accordance with the guidelines of federal and provincial privacy acts.  Information
+        about any employee will not be released without the employee’s authorization except where required by law.
+        \n\nThe company will only collect employees’ personal information where permission is provided or if there is a potential contravention of the law or breaches of agreements or other circumstances that permit us to legally collect this information under the laws of Canada.
+        \n\nThis policy is to ensure that the company is complying with the Personal Information Protection and Electronic Documents Act (PIPEDA) that outlines the protection for an employee in regards to the collection, use and disclosure of personal information </string>
+    <string name="scope_of_pipeda">The Scope of the PIPEDA Act</string>
+    <string name="scope_of_pipeda_p1">\n\n1.\tPIPEDA governs the collection, use and disclosure of “personal information”.
+        \n<b>“Personal information”</b> is any information that identifies or can be used to identify an individual, except:
+        \n\t\t\u2022\tName
+        \n\t\t\u2022\tBusiness address, and
+        \n\t\t\u2022\tPosition within an organization
+        \n\n2.\tPIPEDA applies to every (private sector) <u>organization</u>, which collects, uses or discloses personal information <u>in the course of commercial activities (with intent to generate profits).</u></string>
+    <string name="principles_of_pipeda">Principles of PIPEDA</string>
+    <string name="principles_of_pipedat_p1">\n1.\tInformed consent is required for the collection, use and/or disclosure of personal information, unless an exception applies:
+        \n\t\t\u2022\tConsent must be explicit for sensitive information
+        \n\t\t\u2022\tImplicit consent may be given for less sensitive information
+        \n\n<i>Exceptions to Consent </i>
+        \n\t\t\u2022\tIf it is clearly in the individual’s interests and consent is not available in a timely way
+        \n\t\t\u2022\tIf knowledge and consent would compromise the availability or accuracy of the information and collection is required to investigate a breach of an agreement or contravention of a law
+        \n\t\t\u2022\tIf it is publicly available as specified in the regulations
+        \n\n2.\tProper purpose is required for the collection, use and/or disclosure of personal information, even without <u>consent</u>.
+        \n\nA “proper purpose” must be:
+        \n\t\t\u2022\tPurpose(s) to which the individual consented
+        \n\t\t\u2022\tAny purpose that a reasonable person would consider appropriate in the circumstances
+        \n\t\t\u2022\tJustifiable \tMinimally intrusive
+        \n\nThere are no exceptions to the requirements for a proper purpose.
+        \n\n3.\tRetain personal information only for as long as it is necessary to fulfill the purpose. </string>
+    <string name="employer_obligations">Employer Obligations</string>
+    <string name="employer_obligations_p1">An employer’s obligations are to:
+        \n\t\t\u2022\tDesignate a responsible individual to act as the officer of personal information
+        \n\t\t\u2022\tHave custody and control on all personal information
+        \n\t\t\u2022\ttProvide security safeguards i.e.: lock on office door, locks for filing cabinet, lock on computer
+        \n\t\t\u2022\tIdentify the purpose for obtaining personal information
+        \n\t\t\u2022\tLimit as necessary for agreed upon purposes \tObtain employee consent to obtain personal information
+        \n\t\t\u2022\ttObtain written consent for the collection, use and disclosure of any personal health information
+        \n\t\t\u2022\tOnly use personal information for the purposes for which it was originally collected, except with consent or if required by law
+        \n\t\t\u2022\tEnsure personal information is accurate, complete and up-to date
+        \n\t\t\u2022\tProvide employees access to their personal information, if requested, and correct any incorrect information </string>
+    <string name="employee_rights">Employee Rights</string>
+    <string name="employee_rights_p1">\n\t\t\u2022\tProvide or withhold consent
+        \n\t\t\u2022\tBe given sufficient information on how information will be disclosed
+        \n\t\t\u2022\tTo know their rights
+        \n\t\t\u2022\tTo have access to their information
+        \n\t\t\u2022\tTo challenge the accuracy and completeness of personal information </string>
+    <string name="access_to_info">Access Rights to Personal Information</string>
+    <string name="access_to_info_p1">\n<b>Employers</b>
+        \n\t\t\u2022\tRespond to an individual’s request within a reasonable time and at minimal or no cost to the individual
+        \n\t\t\u2022\tInformation shall be provided or made available to the employee in a form that is generally understandable, for example: if the organization uses abbreviations or codes to record information, an explanation should be provided
+        \n\t\t<u>Exceptions:</u>
+        \n\t\t\u2022\tReasons for denying access should be provided to the individual upon request
+        \n\t\t<u>Exceptions may include: </u>
+        \n\t\t\u2022\tInformation that is prohibitively costly to provide \tInformation that refers to other people
+        \n\t\t\u2022\tInformation that cannot be disclosed for legal, security, or commercial proprietary reasons
+        \n\t\t\u2022\tInformation that is subject to solicitor-client or litigation privilege
+        \n\n<b>Employees </b>
+        \n\t\t\u2022\tShould be told about existence, use and disclosure of personal information
+        \n\t\t\u2022\tShall be given access to that information
+        \n\t\t\u2022\tCan challenge the accuracy and completeness of the information and have it changed "</string>
+    <string name="right_of_correction">Right of Correction to Personal Information</string>
+    <string name="right_of_correction_p1">\n<b>Employee</b>
+        \n\t\t\u2022\tMust successfully demonstrate the inaccuracy or incompleteness of personal information
+        \n\n<b>Employer</b>
+        \n\t\t\u2022\tShall amend the information as required
+        \n\t\t\u2022\tWhere appropriate, shall transmit information to third parties having access to the information in question
+        \n\n<b>Information Management</b>  Organizations are also required to produce a public statement informing the public of:
+        \n\t\t\u2022\tThe types of information collected, used and disclosed and why \tExplanation of company’s privacy policies and procedures including access process
+        \n\t\t\u2022\tInformation made available to related companies
+        \n\t\t\u2022\tSecurity measures in place to safeguard information
+        \n\t\t\u2022\tContact name of Chief Privacy Officer (documented on the company website)</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="personal_info_p1">\nPersonal information <b>includes:</b>
+        \n\t\t\u2022\tPersonal health information (which will only be collected for workers compensation and disability cases.  <b>This information will be collected and maintained by the Privacy Officer – Human Resources)</b>
+        \n\t\t\u2022\tInformation that relates to the work performance of the individual
+        \n\t\t\u2022\tInformation about professional wrongdoing, misconduct, or disciplinary matters
+        \n\nPersonal information could also likely include (but is not limited to):
+        \n\t\t\u2022\tAge
+        \n\t\t\u2022\tWeight
+        \n\t\t\u2022\tHeight
+        \n\t\t\u2022\tMedical records
+        \n\t\t\u2022\tIdentification numbers
+        \n\t\t\u2022\tIncome
+        \n\t\t\u2022\tEthnic origin
+        \n\t\t\u2022\tBlood type
+        \n\t\t\u2022\tOpinions, evaluations, comments, social status or disciplinary action
+        \n\t\t\u2022\tEmployee files
+        \n\t\t\u2022\tCredit records
+        \n\t\t\u2022\tLoan records
+        \n\nPersonal information <b>excludes:</b>
+        \n\t\t\u2022\tName, title and employee’s contact information at Motion Specialties
+        \n\n<b><u>Employee Client Personal Information </u></b>
+        \n\t\t\u2022\tEmployee personal information that is provided to the company as data collection from a client is also protected under PIPEDA.\n\n  </string>
+    <string name="please_contact_hr">\n<b>Please contact Human Resources should you require additional information.\n\n\n</b></string>
+
+    <!-- Harassment policy -->
+    <string name="sexual_harassment_heading">Workplace Harassment Policy</string>
+    <string name="scope_applicable">The policy is applicable whenever an employee or independent contractor:</string>
+    <string name="p1bullet1">\u2022,Carries out duties or conducts business on behalf of the company;
+        \n• Represents the company on committees or at work related events/conferences
+        \n• Attends work-related and industry functions; and/or
+        \n• Socializes with other employees.</string>
+
+    <string name="scope_location"> Locations and situations covered by this policy include, but are not limited to:</string>
+    <string name="location_bullet1">• the company offices and worksites;
+        \n• Other buildings or premises under the jurisdiction of the company;
+        \n• Company vehicles;
+        \n• Social functions sanctioned by or under the jurisdiction of the company whether held at company offices or facilities or at other locations approved by the company;
+        \n• Work-related travel outside of company facilities;
+        \n• Incidents which occur outside the workplace, but have negative repercussions at work or adversely affect working relationships;
+        \n• Harassment that occurs by electronic means (e-mail, telephone, voice mail, internet, or fax) or written communication; and
+        \n• Any other locations or events where company business, operations, or social functions are carried out.</string>
+    <string name="intent_p1">The company recognizes that every person possesses basic human rights including the right to respect, dignity, and protection from all forms of harassment.
+        \n\nThe company will adhere to the spirit and intent of all applicable provincial legislation governing workplace harassment including, but not limited to, the Ontario Human Rights Code and the Occupational Health and Safety Act.
+        \n\nThe company is committed to maintaining a safe workplace where all employees are treated with dignity and respect and will have zero tolerance of any form of harassment towards its employees.
+        \n\nEvery employee has a right to freedom from:
+        \n\n1.\tHarassment in the workplace by the employer or agent of the employer or by another employee because of race, ancestry, place of origin, colour, ethnic origin, citizenship, creed, age, record of offences for which a pardon has been granted and not revoked, marital status, family status or disability, religion, sexual orientation, etc.
+        \n\n2.\tA sexual solicitation or advance made by a person in a position to confer, grant or deny a benefit or advancement to the person where the person making the solicitation or advance knows or ought reasonably to know that it is unwelcome.
+        \n\n3.\tA reprisal or a threat of reprisal for the rejection of a sexual solicitation or advance where the reprisal is made or threatened by a person in a position to confer, grant or deny a benefit or advancement to the person.
+        \n\nIt is also a violation of the policy for anyone to knowingly make a false complaint of harassment or to provide false information about a complaint. Individuals who violate this policy are subject to disciplinary and/or corrective action, up to and including termination of employment.
+        \n\nThis policy outlines the commitment, principles and procedures that the company will follow with respect to preventing and stopping harassment in the workplace. Any violation of this policy will be subject to disciplinary action up to, and including termination.  </string>
+    <string name="harass_purpose_p1">The purpose of this policy is to provide information to all employees regarding:
+        \n\t▪  Workplace Harassment
+        \n\t▪  Sexual Harassment
+        \n\t▪  The steps an employee should take if they feel they are being harassed or if being accused of harassment  </string>
+    <string name="harass_accountibility_p1">The company will:
+        \n\t▪  Appoint a Workplace Violence and Harassment Coordinator;
+        \n\t▪  Establish procedures to effectively address and investigate alleged instances of workplace harassment;
+        \n\t▪  Provide all employees with training and information regarding this policy;
+        \n\t▪  Monitor the company\'s compliance with this policy and related procedures;
+        \n\t▪  Review this policy annually to ensure that it is current and effective;
+        \n\nAccountability for ensuring compliance with the provisions of this policy rest management.
+        \n\nAll employees are expected to:
+        \n\t▪  Familiarize themselves with this policy;
+        \n\t▪  Attend any training related to this policy;
+        \n\t▪  Ask their supervisor for clarification on this policy if they have questions;
+        \n\t▪  Help promote a harassment-free workplace;
+        \n\t▪  Refrain from workplace harassment as defined in this policy; and
+        \n\t▪  Immediately report instances of actual or potential workplace harassment, whether directly experienced or witnessed, to appropriate management staff.
+        \n\nIt is the responsibility of management to:
+        \n\t▪  Foster a harassment-free workplace;
+        \n\t▪  Model respectful behaviour in the workplace;
+        \n\t▪  Ensure that employees receive adequate information and training on this policy;
+        \n\t▪  Report any incidents or potential for harassment to management;
+        \n\t▪  Investigate all aspects of any reported instances of harassment in a timely manner; and
+        \n\t▪  Maintain confidentiality in the investigation process.   </string>
+    <string name="workplace_harassment">Workplace Harassment</string>
+    <string name="workplace_harassment_p1">The purpose of this policy is to encourage an efficient, productive and creative environment.  The company does not condone, nor will tolerate, verbal or physical conduct by employees or others which harasses, disrupts or interferes with work performance, creates an intimidating, offensive or hostile environment. Any breach of this policy will result in disciplinary action up to and including termination of employment.
+        \n\n<i>Definition</i>
+        \nThe Ontario Human Rights Code defines harassment as offending or humiliating someone physically or verbally; threatening or intimidating someone; or making unwelcome jokes or comments about  someone’s race, national or ethnic origin, colour, religion, age, sex, sexual orientation, marital status, family status, disability or pardoned conviction.
+        \n\n\t▪  This also includes comments or actions in the workplace which negatively affect working relationships or productivity or create a poisoned work environment.
+        \n\t▪  Engaging in a course of vexatious comment or conduct against a worker in a workplace that is known or ought reasonably to be known to be unwelcome.
+        \n\t▪  Workplace harassment may include bullying, teasing, intimidating or offensive jokes or innuendos, displaying or circulating offensive pictures or materials, or offensive or intimidating phone calls.
+        \n\nAlso, harassment is based on any comment or conduct, which is motivated by or reflects a prohibited ground of discrimination such as:
+        \n\t▪  Race
+        \n\t▪  Gender
+        \n\t▪  Creed/religion
+        \n\t▪  National/ethnic/social/origin
+        \n\t▪  Ancestry, place of origin
+        \n\t▪  Colour
+        \n\t▪  Nationality/citizenship
+        \n\t▪  Sexual orientation
+        \n\t▪  Age
+        \n\t▪  Record of offences
+        \n\t▪  Marital status/family status
+        \n\t▪  Disability (mental or physical, including AIDS)  ▪\tPregnancy
+        \n\t▪  Political beliefs
+        \n\t▪  Source of income
+        \n\t▪  Written or verbal abuse
+        \n\t▪  Unwelcome remarks, practical jokes which cause awkwardness or embarrassment, innuendos or taunting about a person’s body, and attire
+        \n\t▪  Reasons otherwise protected by applicable laws in the province
+        \n\t▪  Reprisal as defined by this policy
+        \n\nThe company encourages any employee with concerns, or wishing to register complaints of unfair treatment or harassment to contact management.  </string>
+    <string name="sexual_harassment">Sexual Harassment</string>
+    <string name="sexual_harassment_p1"><i>Definition</i>
+        \nSexual harassment encompasses a wide range of unwanted behaviour and has been defined in the following manner: Unwelcome and or repeated sexual advances, requests for sexual favours, and other verbal or physical conduct of a sexual or gender related nature may constitute sexual harassment when:
+        \n\t▪  Such conduct has the purpose or effect of unreasonably interfering with an individual’s work performance or creating an intimidating, hostile, or offensive uncomfortable working environment for any employee, vendor, customer, client or visitor.
+        \n\t▪  Submission to such conduct is made either explicitly or implicitly a term or condition of an individual’s employment.
+        \n\t▪  Submission to or rejection of such conduct by an individual is used as the basis for employment decisions affecting such individual.
+        \n\nSexual Harassment includes both verbal and/or physical conduct, and some examples may include (but not limited to):
+        \n\t▪  Inappropriate physical contact such as touching, patting, kissing, etc.
+        \n\t▪  Leering, staring, obscene or offensive gestures
+        \n\t▪  Sexually suggestive jokes, offensive remarks or innuendoes, whether or not directed to anyone in particular
+        \n\t▪  Inappropriate suggestive comments or taunting with respect to personal or physical appearance, attractiveness or unattractiveness
+        \n\t▪  Displaying, posting or distributing materials such as sexually explicit posters, e-mails, calendars, cartoons, or graffiti, which are of a sexual nature
+        \n\t▪  Demands for sexual favours by a colleague, supervisor or member of management
+        \n\t▪  Advances of a sexual nature
+        \n\t▪  Crude or suggestive comments regarding an employee’s personal life
+        \n\t▪  Written or verbal threats or abuse with sexual overtones
+        \n\t▪  Sexual assault
+        \n\t▪  Condescension or paternalism which undermines self-respect
+        \n\nIt is the company policy to maintain a work environment that is free of harassment for all employees. The company does not condone, nor will tolerate sexual harassment. Sexual harassment is unacceptable conduct, which violates this policy and is grounds for immediate termination.
+        \n\nAny employee who is found to have engaged in conduct that is contrary to this policy will be subject to discipline including termination of employment and recourse to legal remedies.  </string>
+    <string name="reporting_complaints">Reporting and Investigating Complaints of Sexual Harassment, Workplace Harassment and Violence in the Workplace  </string>
+    <string name="reporting_complaints_p1">Any person who feels that he/she has experienced workplace harassment may take the necessary steps, file a complaint under this policy, or initiate proceedings, without prejudice or fear of reprisal. If you believe that you have been subjected to workplace harassment:
+        \n\n\tStep 1
+        \n\t▪  Ask the person to stop.  Do so as soon as you experience any form of unwelcome comment or conduct.  Although this may be difficult to do, telling the person that you do not like their actions is often enough to stop the behaviour.  Remind the person that the conduct is against the company policy.  If you are not comfortable with approaching the person go to Step 3.
+        \n\n\t▪  If you believe that someone who is not an employee, e.g. a customer, supplier, etc., has subjected you to harassment, please report the incident to management immediately. Harassing behaviour from non-employees is not acceptable and will be dealt with under this policy.
+        \n\n\tStep 2
+        \n\t▪  Keep a record of the incident(s) including dates, location, witnesses, your response to the individual and any other pertinent information.
+        \n\n\t▪  If allegations of workplace harassment or violence are made against you, keep a record of your version of the alleged incident.  If you believe the complaint is unfounded or made in bad faith, discuss the matter with management.
+        \n\n\tStep 3
+        \n\t▪  If the violent or harassing behaviour does not stop, bring the complaint immediately to the attention of management. Any formal written complaint filed by an employee must contain:
+        \n\n\t▪  name(s) of the respondent(s) to the complaint;
+        \n\t▪  the date or dates of the incident(s);
+        \n\t▪  location(s) of the incident(s);
+        \n\t▪  details of the incident(s);
+        \n\t▪  names of any witnesses.
+        \n\nThe issue will then be addressed with the alleged offender in accordance with Step 4.
+        \n\n\tStep 4
+        \n\t▪  Management will review the written complaint and may determine that an investigation is warranted if there is sufficient prima facie evidence to indicate that harassment has occurred.  Effective temporary measures will be implemented to protect the victim, if necessary.  A third party may be involved.
+        \n\n\t▪  The complainant will be advised that the respondent has a right to know who is making allegations against him/her and will be provided with a copy of the written complaint for their response.
+        \n\n\t▪  Confidentiality will be maintained at all times except where the disclosure of names is necessary for the purpose of investigating the complaint, when taking any action in relation to the complaint, or where disclosure is required by law.
+        \n\n\t▪  If criminal actions are alleged, witnessed, or found to have occurred, the responding member of management will contact the Police immediately. Criminal actions include, but are not limited to, the following behaviours:
+        \n\n\t▪  The displaying of hate-based graffiti or pornography;
+        \n\n\t▪  The transmission or storing of electronic telecommunications that incite hatred and violence or that constitute pornography;
+        \n\n\t▪  The displaying of symbols or emblems (including clothing) that suggest racial supremacy and incite hatred and violence;
+        \n\n\t▪  Stalking (persistently pursuing a particular individual although the advances are clearly unwelcome);
+        \n\n\t▪  Sexual assault or threat of sexual assault;
+        \n\n\t▪  Threats against an individual or their loved ones or family;
+        \n\n\t▪  Extortion; and/or
+        \n\n\t▪  Physical assault or threats of physical assault.
+        \n\n<i>Note:
+            \nWhether or not a formal complaint is filed, Management or a third party may be obligated to proceed with an investigation if it appears that applicable legislation and/or the policy has been violated. </i> </string>
+    <string name="complaints_procedure">Employers - Procedure for Handling Complaints </string>
+    <string name="complaints_procedure_p1">\nFORMAL INVESTIGATION PROCEDURE
+        \n\t1.  Management or a designated investigator will undertake an investigation immediately and all necessary steps will be taken to resolve the problem.
+        \n\n\t2.  Individual interviews with the complainant, the respondent and any witnesses will be held. Neither the name of the employee lodging the complaint nor the circumstances related to the complaint will be revealed to any other party, unless such disclosure is necessary for the purpose of investigating or taking disciplinary action with respect to the complaint.
+        \n\n\t3.  If the investigation reveals evidence to support the complaint of workplace violence, appropriate measures will be taken. These may include disciplinary action up to and including termination.
+        \n\n\t4.  Management or a designated investigator will summarize their findings and reach a decision on recommended action and may share these findings with additional senior management.  Written results of the investigation and recommended resolution of the situation will then be presented to the two parties. If the respondent is disciplined, the incident will be documented and filed in his/her employment file in accordance with documentation procedures.
+        \n\n\t5.  If the investigation fails to find evidence to support the complaint, there will be no documentation file placed in the parties’ personal Human Resource files.
+        \n\n\t6.  Employees who make legitimate, complaints of workplace violence in good faith will not have their employment affected in any adverse manner.
+        \n\n\t7.  Where the complaint is determined to be abusive, frivolous, vindictive, or made in bad faith, the company will take appropriate action towards the complainant, which may include discipline.
+        \n\n\t8.  Reprisal against an individual who has filed a complaint in good faith or who has been named as a witness or respondent in a complaint may result in disciplinary action being taken by the company. This discipline may occur whether or not the complaint was substantiated and whether or not the complaint was resolved through any of the procedures set out in this policy.
+        \n\nAll information regarding a specific incident will be kept CONFIDENTIAL within the necessary boundaries of the fact-finding process.
+        \n\nRetaliation:
+        \nWe are committed to maintaining an environment free from retaliation.  Retaliation against employees for reporting such behaviour or participating in an investigation will not be tolerated by the company, and will be grounds for further disciplinary actions, up to and including termination.
+        \n\nReprisals:
+        \nNo employee shall be demoted, dismissed, disciplined or denied a promotion, advancement or employment opportunity or suffer a change in job responsibility because he/she has rejected harassment of another employee, has lodged a complaint in accordance with this policy, or has supported another employee in his/her complaint.
+        \n\n<u>Procedure if a Complaint is made Against an Employee</u>
+        \nIf you are accused of any type of harassment, an employee must immediately inform your manager or Human Resources.  Additionally, an employee has a duty to cooperate in the inquiry, regardless of how the employee feels about the allegations.  An employee will be expected to answer questions completely and honestly.  An employee may not retaliate against the person(s) who made the complaint or against anyone who participates in any way in the investigation.
+        Retaliation will lead to corrective action and/ or termination of employment. \n   </string>
+    <string name="this_policy_subject_to"><i>\n*This policy is subject to be amendment and/or revocation at the Company\'s sole discretion, without prior notice to employees.\n\n</i>  </string>
+    <string name="applicability">This policy applies to all employees. </string>
+    <string name="vacation_intent_p1">"The purpose of this policy is to define the guidelines for vacation for the company.   The company deems vacation as very important!  The company recognizes that you need time away from work for rest and recreation and to regenerate to work effectively throughout the year.  Therefore, we encourage all employees to take time away from work by taking their vacation.  The following is an outline of the vacation guidelines and entitlement:  "</string>
+    <string name="eligibility_heading">Eligibility</string>
+    <string name="eligibility_p1">"\tAll regular full-time and part-time employees are eligible for vacation \tFull-time, permanent employees are eligible to receive vacation time off with pay if salaried and full-time and part-time hourly employees are eligible to receive payment equivalent to 4% of their earnings on account of their vacation entitlement. \tEmployees or individuals whose status changes from temporary/contract to permanent will be eligible for a prorated vacation accrual commencing on the first day of their new permanent status. "</string>
+    <string name="vacation_year_heading">Vacation Year</string>
+    <string name="vacation_year_p1">"\tThe vacation year runs from January 1 to December 31 of each year. "</string>
+    <string name="entitlement_heading">Vacation Entitlement for Temporary Employees</string>
+    <string name="entitlement_p1">\tTemporary employees are not eligible for vacation time.  Temporary employees will receive vacation pay equal to 4% of the employee’s wages earned on each pay (this only applies to temporary employees on the company payroll).</string>
+    <string name="entitlement_guidelines">Vacation Entitlement Guidelines</string>
+    <string name="entitlement_guidelines_p1">"\tVacation is pro-rated depending on your start of date with the company (full-time employees only).  \tVacation entitlement may be different if agreed upon in writing at time of hire or per provincial requirements. \tAll hourly part-time employee’s vacation will be paid on each pay.  \tAn employee may not take vacation during the probation period unless authorized. \tIn the year that the employee’s vacation entitlement increases, the vacation allotment will be prorated from your hire date. (full-time employees only) \tIn the year that the employee’s vacation entitlement increases, the vacation pay percentage increase will be effective on the anniversary of the employee’s hire date \tBy law, the company is only liable to pay the vacation entitlement according to the employment legislation governed by each Province.  Unless authorization is given by the employer to an employee for carry-over of unused vacation entitlement, the employee will lose unused vacation as long as the company has satisfied the employment law requirements. \tAll paid time must be used before unpaid time is granted. "</string>
+    <string name="entitlement_schedule">Vacation Entitlement Schedule in Days (Full-time):</string>
+    <string name="entitlement_percent">Vacation Entitlement Schedule in Percent (Hourly-Part-time):</string>
+
+    <string name="entitlement_sched_service"><b>Service</b>
+        \n\n\n1 yr &amp; less then 5 yrs
+        \n5 yrs &amp; less than 10 yrs
+        \n\n10 yrs &amp; less than 15 yrs
+        \n\n15 yrs &amp; over\n</string>
+    <string name="entitlement_sched_ent"><b>Entitlement</b> \n\n\n10 days (2 weeks) \n\n15 days ( 3 weeks) \n\n20days (4 weeks) \n\n25 days (5 weeks)\n</string>
+    <string name="entitlement_sched_monthly"><b>Monthly Rate of Earning Entitlement</b> \n\n0.83 days per month\n\n1.25 days per month \n\n1.67 days per month\n\n2.08 days per month\n</string>
+    <string name="entitlement_percent_service"><b>Service</b> \n\n\n1 yr &amp; less then 5 yrs
+        \n5 yrs &amp; less than 10 yrs
+        \n10 yrs &amp; over\n</string>
+    <string name="entitlement_percent_ent"><b>Entitlement</b> \n\n\n4% (2weeks)\n6% (3 weeks) \n\n 8% (4 weeks)\n</string>
+    <string name="entitlement_percent_monthly"><b>Monthly Rate of Earning Entitlement</b>\n\n.083 days per month\n1.25 days per month\n\n1.67 days per month\n</string>
+    <string name="vacation_carry_over">"Vacation Carry Over   "</string>
+    <string name="vacation_carry_over_p1">"\tEmployees are encouraged to take their vacation entitlement within the calendar year. \tCarry-over vacation requests must be submitted by December 1st of each year for approval. \tAn employee may carry over a maximum of 5 vacation days (for work related circumstances) into the next calendar year with approval from both the Regional VP and the VP, Human Resources via email.   \tAny vacation from the previous calendar year will only be carried over to March 31st of the current year. \tAny previous year’s vacation not taken by March 31st will be forfeited. \tSpecial circumstances may arise that will allow an employee to extend the previous years’ vacation beyond March 31stwith the approval of the employee’s manager and/or Human Resources. "</string>
+    <string name="hourly_part_time">Hourly Employees – Part-time</string>
+    <string name="hourly_part_time_p1">\tVacation for all hourly employees cannot be accumulated and will be paid on each pay period.</string>
+    <string name="vacation_request">" Vacation Request Procedure "</string>
+    <string name="vacation_request_p1">"To ensure that vacation records are current and up-to-date, follow these steps to request vacation: \tRequest vacation through manager   \tYour manager will review/approve your request  "</string>
+    <string name="maternity_leave">Maternity/Parental Leave and Vacation Entitlement</string>
+    <string name="maternity_leave_p1">"\tVacation pay is not accrued for part-time employees on Leave \tFull-time permanent employees on Maternity/Parental Leave are entitled to accrue vacation time. \tAny unused vacation prior to commencing the Maternity/Parental Leave must be used before the leave or before the employee’s return from the leave.\n\n "</string>
+    <string name="contact">\nPlease contact Human Resources should you require additional information.</string>
 
 
 </resources>

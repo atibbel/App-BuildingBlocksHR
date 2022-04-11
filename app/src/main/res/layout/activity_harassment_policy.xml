@@ -39,7 +39,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
-        <!-- Line to seperate text from heading -->
+
 
         <TextView
             android:id="@+id/date"
@@ -55,6 +55,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView1"
             tools:ignore="MissingConstraints" />
 
+        <!-- Line to seperate text from heading -->
         <View
             android:id="@+id/primerdivisor"
             android:layout_width="fill_parent"
@@ -134,7 +135,7 @@
             app:layout_constraintStart_toStartOf="@id/textView5"
             app:layout_constraintTop_toBottomOf="@id/textView6" />
 
-        <!-- INTENT heading -->
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="345dp"
@@ -147,6 +148,7 @@
             app:layout_constraintStart_toStartOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
+        <!-- INTENT heading -->
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
@@ -158,6 +160,180 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/intent_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/purpose_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/harass_purpose_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/accountability_heading"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/harass_accountibility_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/workplace_harassment"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/workplace_harassment_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/sexual_harassment"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/sexual_harassment_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/reporting_complaints"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/reporting_complaints_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/complaints_procedure"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/complaints_procedure_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <View
+            android:id="@+id/end_primerdivisor"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#3F51B5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/this_policy_subject_to"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/end_primerdivisor" />
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

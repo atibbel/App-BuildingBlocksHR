@@ -16,6 +16,9 @@ import android.widget.Toast;
 public class LoginActivity extends AppCompatActivity {
     EditText edittext_password;
     EditText edittext_email;
+    String customUser= "custom@mail.com";
+    String plusUser = "plus@mail.com";
+    String standardUser = "standard@mail.com";
 
 
     @Override
@@ -54,6 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                     Intent nextPage = new Intent(LoginActivity.this, MainActivity_Custom.class);
                     nextPage.putExtra("userName",edittext_email.getText().toString()); // used to get userinput for welcome screen
                     startActivity(nextPage);
+
 
                 } // eof if
             } // eof public void onClick
