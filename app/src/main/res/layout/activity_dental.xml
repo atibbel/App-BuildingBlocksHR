@@ -254,11 +254,11 @@
 
         <TextView
             android:id="@+id/form1"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:onClick="form1"
-            android:text="Form 1"
+            android:text="Standard Dental Claim form"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/textView11"
             app:layout_constraintTop_toBottomOf="@+id/textView11"
@@ -266,11 +266,11 @@
 
         <TextView
             android:id="@+id/form2"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:onClick="form2"
-            android:text="Form 2"
+            android:text="Denatl Expense Claim form"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/form1"
             app:layout_constraintTop_toBottomOf="@+id/form1"
@@ -278,11 +278,11 @@
 
         <TextView
             android:id="@+id/form3"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:onClick="form3"
-            android:text="Form 3"
+            android:text="Student Denatl Claim form"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/form2"
             app:layout_constraintTop_toBottomOf="@+id/form2"
@@ -295,7 +295,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
             android:onClick="form4"
-            android:text="Form 4"
             android:textColor="@color/lightblue"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/form3"

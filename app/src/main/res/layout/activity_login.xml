@@ -21,68 +21,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_standard"
-        android:layout_width="244dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="80dp"
-        android:background="@drawable/rounded"
-        android:backgroundTint="#2196F3"
-        android:fontFamily="@font/poppins_light"
-        android:text="Standard"
-        android:textColor="#FBFBFB"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_plus"
-        android:layout_width="249dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/rounded"
-        android:backgroundTint="#E91E63"
-        android:fontFamily="@font/poppins_light"
-        android:text="Plus"
-        android:textColor="#FBF9F9"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button_standard"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_standard"
-        app:layout_constraintTop_toBottomOf="@+id/button_standard" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_custom"
-        android:layout_width="248dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/rounded"
-        android:backgroundTint="#4CAF50"
-        android:fontFamily="@font/poppins_light"
-        android:text="Custom"
-        android:textColor="#FBFAFA"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button_plus"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_plus"
-        app:layout_constraintTop_toBottomOf="@+id/button_plus" />
-
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="249dp"
         android:layout_height="45dp"
-        android:text="Login"
         android:background="@drawable/rounded"
         android:backgroundTint="#4CAF50"
+        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button_standard"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button_standard"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_password"
+        app:layout_constraintStart_toStartOf="@+id/edittext_password"
         app:layout_constraintTop_toBottomOf="@+id/edittext_password"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.107" />
 
     <ImageView
         android:id="@+id/imageView2"

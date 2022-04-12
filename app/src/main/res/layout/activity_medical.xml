@@ -367,23 +367,24 @@
 
         <TextView
             android:id="@+id/form1"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="20dp"
             android:onClick="form1"
-            android:text="Health Form 1"
+            android:text="Health Care Claims"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/textView11"
             app:layout_constraintTop_toBottomOf="@+id/textView11"
             tools:ignore="MissingConstraints,OnClick" />
 
+
         <TextView
             android:id="@+id/form2"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:onClick="form2"
-            android:text="Health Form 2"
+            android:text="Vision Care Claims"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/form1"
             app:layout_constraintTop_toBottomOf="@+id/form1"
@@ -391,11 +392,11 @@
 
         <TextView
             android:id="@+id/form3"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:onClick="form3"
-            android:text="HealthForm 3"
+            android:text="Prescription Claims"
             android:textColor="@color/lightblue"
             app:layout_constraintStart_toStartOf="@+id/form2"
             app:layout_constraintTop_toBottomOf="@+id/form2"
@@ -403,12 +404,12 @@
 
         <TextView
             android:id="@+id/form4"
-            android:layout_width="94dp"
+            android:layout_width="wrap_content"
             android:layout_height="22dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
             android:onClick="form4"
-            android:text="Health Form 4"
+            android:text="Hearing Aid Claims"
             android:textColor="@color/lightblue"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/form3"

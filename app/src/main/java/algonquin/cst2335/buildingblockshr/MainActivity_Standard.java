@@ -8,12 +8,14 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -143,6 +145,14 @@ public class MainActivity_Standard extends AppCompatActivity {
             Toast.makeText(MainActivity_Standard.this, R.string.loading, Toast.LENGTH_LONG).show();
         });
 
+        // displays user name on main page.
+        // will change after we get a database connection.
+        Intent welcome = getIntent();
+        String userName = welcome.getStringExtra("userName");
+        TextView name = findViewById(R.id.username);
+        name.setText("Welcome Back " + userName);
+        // Shared prefs will be(?) nneeded
+
     }
 
     @Override
@@ -151,16 +161,23 @@ public class MainActivity_Standard extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.help:
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity_Standard.this);
-                builder.setTitle(getString(R.string.hrHelpTitle))
-                        .setMessage(getString(R.string.helpMsg))
+                builder.setTitle(getString(R.string.bbhrBrowser))
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
+                            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
+                            startActivity(browserIntent);
                         }).create().show();
+
+
                 break;
             case R.id.logOut: // edit to take to sign up page
                 AlertDialog.Builder builder2 = new AlertDialog.Builder(MainActivity_Standard.this);
-                builder2.setMessage("This will take you to the sign up page....when we create it.")
+                builder2.setMessage("Are you sure you wish to log out?")
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
+                            Toast.makeText(MainActivity_Standard.this, R.string.loggingOut, Toast.LENGTH_SHORT).show();
+                            Intent nextPage = new Intent(MainActivity_Standard.this, LoginActivity.class);
+                            startActivity(nextPage);
                         }).create().show();
+
 
         }
         return super.onOptionsItemSelected(item);
