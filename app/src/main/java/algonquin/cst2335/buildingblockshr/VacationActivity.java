@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.CalendarView;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.android.material.navigation.NavigationView;
@@ -35,6 +36,10 @@ public class VacationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vacation);
+
+//        EditText editDays = findViewById(R.id.number_of_days);
+//        String daysOff = editDays.getText().toString();
+
 
         Toolbar myToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);// causes OnCreateOptionMenu() to be called

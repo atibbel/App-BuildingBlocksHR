@@ -17,22 +17,22 @@ public class MedicalActivity extends AppCompatActivity {
 
 
     public void form1(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
         startActivity(browserIntent);
     }
 
     public void form2(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pexels.com/photo/close-up-photography-of-cat-1183434/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
         startActivity(browserIntent);
     }
 
     public void form3(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pexels.com/photo/black-and-white-cat-with-tongue-out-1317844/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
         startActivity(browserIntent);
     }
 
     public void form4(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pexels.com/photo/grey-fur-kitten-127028/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
         startActivity(browserIntent);
     }
 }

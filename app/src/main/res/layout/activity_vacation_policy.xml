@@ -417,25 +417,48 @@
             app:layout_constraintStart_toStartOf="@+id/textView31"
             app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/termination_payout"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView32"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/termination_payout_p1"
+            android:textColor="#201D1D"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/textView33"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
         <View
             android:id="@+id/end_primerdivisor"
             android:layout_width="fill_parent"
             android:layout_height="2dp"
             android:layout_marginTop="10dp"
             android:background="#3F51B5"
-            app:layout_constraintBottom_toBottomOf="@+id/textView33"
+            app:layout_constraintBottom_toBottomOf="@+id/textView35"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp" />
 
         <TextView
-            android:id="@+id/textView34"
+            android:id="@+id/textView36"
             android:layout_width="375dp"
             android:layout_height="match_parent"
             android:fontFamily="@font/poppins_light"
             android:text="@string/contact"
             android:textColor="#201D1D"
             android:textSize="12sp"
-            app:layout_constraintStart_toStartOf="@+id/textView33"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
             app:layout_constraintTop_toBottomOf="@+id/end_primerdivisor" />
 
 

@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -196,16 +197,23 @@ public class MainActivity_Custom extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.help:
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity_Custom.this);
-                builder.setTitle(getString(R.string.hrHelpTitle))
-                        .setMessage(getString(R.string.helpMsg))
+                builder.setTitle(getString(R.string.bbhrBrowser))
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
-                        }).create().show();
+                            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buildingblockshr.ca/"));
+                            startActivity(browserIntent);
+                            }).create().show();
+
+
                 break;
             case R.id.logOut: // edit to take to sign up page
                 AlertDialog.Builder builder2 = new AlertDialog.Builder(MainActivity_Custom.this);
-                builder2.setMessage("This will take you to the sign up page....when we create it.")
+                builder2.setMessage("Are you sure you wish to log out?")
                         .setPositiveButton(getString(R.string.OkMsg), (dialogue, click) -> {
+                            Toast.makeText(MainActivity_Custom.this, R.string.loggingOut, Toast.LENGTH_SHORT).show();
+                            Intent nextPage = new Intent(MainActivity_Custom.this, LoginActivity.class);
+                            startActivity(nextPage);
                         }).create().show();
+
 
         }
         return super.onOptionsItemSelected(item);
@@ -220,11 +228,4 @@ public class MainActivity_Custom extends AppCompatActivity {
     public void others(View view) {
     }
 
-
-//
-//    public void demoButton(View view) {
-//        Intent nextPage = new Intent(MainActivity_Custom.this, LoginActivity.class);
-//        startActivity(nextPage);
-//    }
-
-}
+ }

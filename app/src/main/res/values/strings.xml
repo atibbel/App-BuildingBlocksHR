@@ -4,9 +4,9 @@
     <string name="app_name">BuildingBlocksHR</string>
     <string name="open">open</string>
     <string name="close">close</string>
-    <string name="hrHelpTitle">How to use the App</string>
+    <string name="bbhrBrowser">Taking you to BBRH website</string>
     <string name="helpMsg">Instructions on how to use the App go here!</string>
-    <string name="OkMsg">Got it!</string>
+    <string name="OkMsg">Yes!</string>
     <string name="policy"><u>Policies      </u></string>
     <string name="compliance">Compliance Policies</string>
     <string name="violance_harassment">Viloence, Workplace and Sexual Harassment</string>
@@ -669,18 +669,27 @@
 
    <!-- vacation policy -->
     <string name="applicability">This policy applies to all employees. </string>
-    <string name="vacation_intent_p1">The purpose of this policy is to define the guidelines for vacation for the company.   The company deems vacation as very important!  The company recognizes that you need time away from work for rest and recreation and to regenerate to work effectively throughout the year.  Therefore, we encourage all employees to take time away from work by taking their vacation.  The following is an outline of the vacation guidelines and entitlement:  "</string>
+    <string name="vacation_intent_p1">The purpose of this policy is to define the guidelines for vacation for the company.
+        \n\nThe company deems vacation as very important!  The company recognizes that you need time away from work for rest and recreation and to regenerate to work effectively throughout the year.  Therefore, we encourage all employees to take time away from work by taking their vacation.
+        \n\nThe following is an outline of the vacation guidelines and entitlement:  </string>
     <string name="eligibility_heading">Eligibility</string>
-    <string name="eligibility_p1">"\tAll regular full-time and part-time employees are eligible for vacation \tFull-time, permanent employees are eligible to receive vacation time off with pay if salaried and full-time and part-time hourly employees are eligible to receive payment equivalent to 4% of their earnings on account of their vacation entitlement. \tEmployees or individuals whose status changes from temporary/contract to permanent will be eligible for a prorated vacation accrual commencing on the first day of their new permanent status. "</string>
+    <string name="eligibility_p1">\n\u2022\tAll regular full-time and part-time employees are eligible for vacation
+        \n\u2022\tFull-time, permanent employees are eligible to receive vacation time off with pay if salaried and full-time and part-time hourly employees are eligible to receive payment equivalent to 4% of their earnings on account of their vacation entitlement.
+        \n\u2022\tEmployees or individuals whose status changes from temporary/contract to permanent will be eligible for a prorated vacation accrual commencing on the first day of their new permanent status. </string>
     <string name="vacation_year_heading">Vacation Year</string>
-    <string name="vacation_year_p1">"\tThe vacation year runs from January 1 to December 31 of each year. "</string>
+    <string name="vacation_year_p1">\n\u2022\tThe vacation year runs from January 1 to December 31 of each year. </string>
     <string name="entitlement_heading">Vacation Entitlement for Temporary Employees</string>
-    <string name="entitlement_p1">\tTemporary employees are not eligible for vacation time.  Temporary employees will receive vacation pay equal to 4% of the employee’s wages earned on each pay (this only applies to temporary employees on the company payroll).</string>
+    <string name="entitlement_p1">\n\u2022\tTemporary employees are not eligible for vacation time.  Temporary employees will receive vacation pay equal to 4% of the employee’s wages earned on each pay (this only applies to temporary employees on the company payroll).</string>
     <string name="entitlement_guidelines">Vacation Entitlement Guidelines</string>
-    <string name="entitlement_guidelines_p1">"\tVacation is pro-rated depending on your start of date with the company (full-time employees only).  \tVacation entitlement may be different if agreed upon in writing at time of hire or per provincial requirements. \tAll hourly part-time employee’s vacation will be paid on each pay.  \tAn employee may not take vacation during the probation period unless authorized. \tIn the year that the employee’s vacation entitlement increases, the vacation allotment will be prorated from your hire date. (full-time employees only) \tIn the year that the employee’s vacation entitlement increases, the vacation pay percentage increase will be effective on the anniversary of the employee’s hire date \tBy law, the company is only liable to pay the vacation entitlement according to the employment legislation governed by each Province.  Unless authorization is given by the employer to an employee for carry-over of unused vacation entitlement, the employee will lose unused vacation as long as the company has satisfied the employment law requirements. \tAll paid time must be used before unpaid time is granted. "</string>
+    <string name="entitlement_guidelines_p1">\n\u2022\tVacation is pro-rated depending on your start of date with the company (full-time employees only).
+        \n\u2022\tVacation entitlement may be different if agreed upon in writing at time of hire or per provincial requirements.
+        \n\u2022\tAll hourly part-time employee’s vacation will be paid on each pay.
+        \n\u2022\tAn employee may not take vacation during the probation period unless authorized.
+        \n\u2022\tIn the year that the employee’s vacation entitlement increases, the vacation allotment will be prorated from your hire date. (full-time employees only)
+        \n\u2022\tIn the year that the employee’s vacation entitlement increases, the vacation pay percentage increase will be effective on the anniversary of the employee’s hire date
+        \n\u2022\tBy law, the company is only liable to pay the vacation entitlement according to the employment legislation governed by each Province.  Unless authorization is given by the employer to an employee for carry-over of unused vacation entitlement, the employee will lose unused vacation as long as the company has satisfied the employment law requirements.
+        \n\u2022\tAll paid time must be used before unpaid time is granted. </string>
     <string name="entitlement_schedule">Vacation Entitlement Schedule in Days (Full-time):</string>
-    <string name="entitlement_percent">Vacation Entitlement Schedule in Percent (Hourly-Part-time):</string>
-
     <string name="entitlement_sched_service"><b>Service</b>
         \n\n\n1 yr &amp; less then 5 yrs
         \n5 yrs &amp; less than 10 yrs
@@ -688,20 +697,36 @@
         \n\n15 yrs &amp; over\n</string>
     <string name="entitlement_sched_ent"><b>Entitlement</b> \n\n\n10 days (2 weeks) \n\n15 days ( 3 weeks) \n\n20days (4 weeks) \n\n25 days (5 weeks)\n</string>
     <string name="entitlement_sched_monthly"><b>Monthly Rate of Earning Entitlement</b> \n\n0.83 days per month\n\n1.25 days per month \n\n1.67 days per month\n\n2.08 days per month\n</string>
+    <string name="entitlement_percent">Vacation Entitlement Schedule in Percent (Hourly-Part-time):</string>
     <string name="entitlement_percent_service"><b>Service</b> \n\n\n1 yr &amp; less then 5 yrs
         \n5 yrs &amp; less than 10 yrs
         \n10 yrs &amp; over\n</string>
     <string name="entitlement_percent_ent"><b>Entitlement</b> \n\n\n4% (2weeks)\n6% (3 weeks) \n\n 8% (4 weeks)\n</string>
     <string name="entitlement_percent_monthly"><b>Monthly Rate of Earning Entitlement</b>\n\n.083 days per month\n1.25 days per month\n\n1.67 days per month\n</string>
-    <string name="vacation_carry_over">"Vacation Carry Over   "</string>
-    <string name="vacation_carry_over_p1">"\tEmployees are encouraged to take their vacation entitlement within the calendar year. \tCarry-over vacation requests must be submitted by December 1st of each year for approval. \tAn employee may carry over a maximum of 5 vacation days (for work related circumstances) into the next calendar year with approval from both the Regional VP and the VP, Human Resources via email.   \tAny vacation from the previous calendar year will only be carried over to March 31st of the current year. \tAny previous year’s vacation not taken by March 31st will be forfeited. \tSpecial circumstances may arise that will allow an employee to extend the previous years’ vacation beyond March 31stwith the approval of the employee’s manager and/or Human Resources. "</string>
+    <string name="vacation_carry_over">Vacation Carry Over  </string>
+    <string name="vacation_carry_over_p1">\n\u2022\tEmployees are encouraged to take their vacation entitlement within the calendar year.
+        \n\u2022\tCarry-over vacation requests must be submitted by December 1st of each year for approval.
+        \n\u2022\tAn employee may carry over a maximum of 5 vacation days (for work related circumstances) into the next calendar year with approval from both the Regional VP and the VP, Human Resources via email.
+        \n\u2022\tAny vacation from the previous calendar year will only be carried over to March 31st of the current year.
+        \n\u2022\tAny previous year’s vacation not taken by March 31st will be forfeited.
+        \n\u2022\tSpecial circumstances may arise that will allow an employee to extend the previous years’ vacation beyond March 31stwith the approval of the employee’s manager and/or Human Resources. </string>
     <string name="hourly_part_time">Hourly Employees – Part-time</string>
-    <string name="hourly_part_time_p1">\tVacation for all hourly employees cannot be accumulated and will be paid on each pay period.</string>
-    <string name="vacation_request">" Vacation Request Procedure "</string>
-    <string name="vacation_request_p1">"To ensure that vacation records are current and up-to-date, follow these steps to request vacation: \tRequest vacation through manager   \tYour manager will review/approve your request  "</string>
+    <string name="hourly_part_time_p1">\n\u2022\tVacation for all hourly employees cannot be accumulated and will be paid on each pay period.</string>
+    <string name="vacation_request"> Vacation Request Procedure </string>
+    <string name="vacation_request_p1">To ensure that vacation records are current and up-to-date, follow these steps to request vacation:
+        \n\u2022\tRequest vacation through manager
+        \n\u2022\tYour manager will review/approve your request  </string>
     <string name="maternity_leave">Maternity/Parental Leave and Vacation Entitlement</string>
-    <string name="maternity_leave_p1">"\tVacation pay is not accrued for part-time employees on Leave \tFull-time permanent employees on Maternity/Parental Leave are entitled to accrue vacation time. \tAny unused vacation prior to commencing the Maternity/Parental Leave must be used before the leave or before the employee’s return from the leave.\n\n "</string>
-    <string name="contact">\nPlease contact Human Resources should you require additional information.</string>
+    <string name="maternity_leave_p1">\n\u2022\tVacation pay is not accrued for part-time employees on Leave
+        \n\u2022\tFull-time permanent employees on Maternity/Parental Leave are entitled to accrue vacation time.
+        \n\u2022\tAny unused vacation prior to commencing the Maternity/Parental Leave must be used before the leave or before the employee’s return from the leave. </string>
+    <string name="termination_payout">Vacation Pay upon Termination of Employment</string>
+    <string name="termination_payout_p1">\n\u2022\tEmployees who resign or are terminated will be paid unused vacation days on a pro-rata basis.
+        \n\u2022\tAny unearned vacation used by the employee prior to the resignation or termination will be deducted from the employee’s pay.
+        \n\u2022\tUnused vacation - will be paid out on the employee’s final paycheque upon termination of employment.\n\n </string>
+    <string name="contact">\nPlease contact Human Resources should you require additional information.\n\n</string>
+    <string name="hrHelpTitle">test test</string>
+    <string name="loggingOut">loggin out...</string>
 
 
 </resources>

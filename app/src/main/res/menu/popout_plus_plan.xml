@@ -4,15 +4,6 @@
 
 
     <item
-        android:id="@+id/popout_logo"
-        android:fontFamily="@font/poppins_light"
-        android:icon="@drawable/logo_policies"
-        android:textColor="#4CAF50"
-        android:textStyle="bold"
-        android:title="COMPANY LOGO ON THE SITE"
-        app:showAsAction="always" />
-
-    <item
         android:id="@+id/home"
         android:fontFamily="@font/poppins_light"
         android:icon="@drawable/home"

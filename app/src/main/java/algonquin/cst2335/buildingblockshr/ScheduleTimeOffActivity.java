@@ -41,7 +41,7 @@ public class ScheduleTimeOffActivity extends AppCompatActivity {
         String message = EditTextMessage.getText().toString();
 
         Intent intent = new Intent(Intent.ACTION_SEND);
-        //intent.setData(Uri.parse("mailto:default@recipient.com"));
+        intent.setData(Uri.parse("mailto:default@recipient.com"));
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"recipient@example.com"});
         intent.putExtra(Intent.EXTRA_SUBJECT, subject);
         intent.putExtra(Intent.EXTRA_TEXT, message);
