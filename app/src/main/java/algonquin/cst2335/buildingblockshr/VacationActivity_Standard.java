@@ -109,12 +109,6 @@ public class VacationActivity_Standard extends AppCompatActivity {
                     startActivity(nextPage2_2);
                     break;
 
-//                case R.id.popout_remaining_days:
-//                    Intent nextPage2_3 = new Intent(VacationActivity_Standard.this, VacationDaysRemainingActivity.class);
-//                    startActivity(nextPage2_3);
-//                    break;
-
-
                 case R.id.home:
                     Intent nextPage4 = new Intent(VacationActivity_Standard.this, MainActivity_Standard.class);
                     startActivity(nextPage4);
@@ -142,7 +136,7 @@ public class VacationActivity_Standard extends AppCompatActivity {
                         // Store the value of date with format in String type Variable. Add 1 in month because month index is start with 0
                         String Date
                                 = dayOfMonth + "-" + (month + 1) + "-" + year;
-                        // set this date in TextView for Display
+                        // set the date in TextView for Display
                         date_view.setText(Date);
                     }
                 });
